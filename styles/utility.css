@@ -22,6 +22,15 @@
    --col-gap: minmax(0.2rem, 2rem);
 }
 
+/**
+*
+* * COLORS 
+*
+*/
+
+.color-text {
+   color: var(--color-text);
+}
 .color-primary {
    color: var(--primary);
 }
@@ -29,13 +38,18 @@
    background-color: var(--primary);
 }
 
+/**
+ *
+ * * FONTS
+ *
+ */
+
 .bold {
    font-variation-settings: var(--bold);
 }
 .regular {
    font-variation-settings: var(--regular);
 }
-
 .f-50 {
    font-size: var(--font-50);
 }
@@ -55,10 +69,26 @@
    font-size: var(--font-500);
 }
 
+/**
+ *
+ * * LAYOUT
+ *
+ */
+
+/* * Grid */
 .grid {
    display: grid;
 }
 
+/* * Flex */
 .flex {
    display: flex;
+}
+
+.align-items {
+   align-items: center;
+}
+
+.justify-content {
+   justify-content: center;
 }
