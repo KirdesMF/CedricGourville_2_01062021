@@ -1,0 +1,28 @@
+@font-face {
+   font-family: 'Railway';
+   src: url('/assets/fonts/Raleway-VariableFont_wght.ttf')
+      format('truetype-variations');
+}
+
+html,
+body {
+   box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+main {
+   grid-column: main;
+   grid-row: main;
+}
+
+body {
+   min-height: 100%;
+   font-family: 'Railway';
+   grid-template-columns: [left]var(--col-gap) [main]1fr [right]var(--col-gap);
+   grid-template-rows: [header]130px [main]1fr;
+}

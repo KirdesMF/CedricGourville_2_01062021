@@ -19,17 +19,46 @@
    --font-800: 2.188rem;
 
    --row-gap: 2rem;
-   --col-gap: 1rem;
+   --col-gap: minmax(0.2rem, 2rem);
+}
+
+.color-primary {
+   color: var(--primary);
+}
+.bg-primary {
+   background-color: var(--primary);
 }
 
 .bold {
    font-variation-settings: var(--bold);
 }
-
 .regular {
    font-variation-settings: var(--regular);
 }
 
+.f-50 {
+   font-size: var(--font-50);
+}
+.f-100 {
+   font-size: var(--font-100);
+}
+.f-200 {
+   font-size: var(--font-200);
+}
+.f-300 {
+   font-size: var(--font-300);
+}
+.f-400 {
+   font-size: var(--font-400);
+}
 .f-500 {
    font-size: var(--font-500);
+}
+
+.grid {
+   display: grid;
+}
+
+.flex {
+   display: flex;
 }
