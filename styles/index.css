@@ -1,13 +1,5 @@
 @import 'reset.css';
-
-html,
-body {
-   margin: 0;
-   padding: 0;
-
-   min-height: 100vh;
-   background: green;
-}
+@import 'utility.css';
 
 @font-face {
    font-family: 'Railway';
@@ -15,6 +7,9 @@ body {
       format('truetype-variations');
 }
 
-h1 {
+body {
+   min-height: 100vh;
+
    font-family: 'Railway';
+   display: grid;
 }
