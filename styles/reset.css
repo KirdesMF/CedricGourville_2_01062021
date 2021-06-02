@@ -129,6 +129,7 @@ button {
    border: none;
    font: unset;
    padding: 0;
+   margin: 0;
 }
 
 button:hover {
