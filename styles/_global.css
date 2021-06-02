@@ -16,10 +16,19 @@ body {
 }
 
 body {
+   --header-height: 130px;
+
    min-height: 100%;
    font-family: 'Railway';
-   grid-template-columns: var(--col-gap) [main]1fr var(--col-gap);
-   grid-template-rows: [header]130px [main]1fr [footer]max-content;
+   grid-template-columns: var(--col-gap-body) [main]1fr var(--col-gap-body);
+   grid-template-rows: [header]var(--header-height) [main]1fr [footer]max-content;
+   row-gap: var(--row-gap);
+}
+
+@media screen and (min-width: 43em) {
+   body {
+      --header-height: 100px;
+   }
 }
 
 [data-area~='main'] {
