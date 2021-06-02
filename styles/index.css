@@ -1,5 +1,5 @@
-@import '_reset.css';
-@import '_utility.css';
-@import '_global.css';
+@import 'reset.css';
+@import 'utility.css';
+@import 'global.css';
 @import 'header.css';
 @import 'search.css';
