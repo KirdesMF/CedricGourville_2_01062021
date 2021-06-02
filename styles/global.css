@@ -18,11 +18,15 @@ body {
 body {
    min-height: 100%;
    font-family: 'Railway';
-   grid-template-columns: [left]var(--col-gap) [main]1fr [right]var(--col-gap);
-   grid-template-rows: [header]130px [main]1fr;
+   grid-template-columns: var(--col-gap) [main]1fr var(--col-gap);
+   grid-template-rows: [header]130px [main]1fr [footer]max-content;
 }
 
-main {
+[data-area~='main'] {
    grid-column: main;
    grid-row: main;
+}
+
+[data-area~='footer'] {
+   grid-row: footer;
 }
