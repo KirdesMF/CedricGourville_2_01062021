@@ -2,8 +2,7 @@
 =            Section hebergment            =
 =============================================*/
 
-section.hebergement {
+.hebergement {
    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-   grid-template-rows: 50vh;
    gap: var(--row-gap);
 }
