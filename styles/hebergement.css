@@ -1,0 +1,9 @@
+/*=============================================
+=            Section hebergment            =
+=============================================*/
+
+section.hebergement {
+   grid-template-columns: 1fr 0.5fr;
+   grid-template-rows: 50vh;
+   gap: var(--row-gap);
+}
