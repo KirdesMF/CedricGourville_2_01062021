@@ -4,18 +4,23 @@
 section.search {
    row-gap: var(--row-gap);
 }
+
 /* Header */
 section.search > header {
    row-gap: 0.875rem;
 }
 
+/* Form */
 section.search > form {
+   --input-cell: 1fr;
+   --btn-cell: 1.5rem;
    grid-auto-flow: column;
-   grid-template-columns: 3rem [input-start]1fr [btn-start]1.5rem [input-end]1.5rem;
+   grid-template-columns:
+      3rem [input-start]var(--input-cell) [btn-start]var(--btn-cell)
+      [input-end]var(--btn-cell);
    grid-template-rows: 3rem;
 }
 
-/* Form */
 section.search > form > span {
    border-radius: var(--radius) 0 0 var(--radius);
 }
@@ -37,4 +42,40 @@ section.search > form > button {
 section.search > form > button > span {
    display: none;
    visibility: hidden;
+}
+
+/**
+ *
+ * Desktop
+ *
+ */
+@media screen and (min-width: 43em) {
+   section.search > form {
+      --input-cell: 20rem;
+      --btn-cell: min-content;
+   }
+
+   section.search > form > button {
+      border-radius: 0 var(--radius) var(--radius) 0;
+   }
+
+   section.search > form > button > span {
+      display: block;
+      visibility: visible;
+      padding: 0 1rem;
+   }
+
+   section.search > form > button > i {
+      display: none;
+      visibility: hidden;
+   }
+}
+
+/* Filtres */
+section.search > article {
+   row-gap: 0.875rem;
+}
+
+section.search > article > h1 {
+   width: max-content;
 }
