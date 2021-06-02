@@ -4,5 +4,10 @@
 
 .hebergement {
    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   gap: 2rem;
+   padding: var(--row-gap) 0;
+}
+
+.hebergement > section {
    gap: var(--row-gap);
 }
