@@ -16,9 +16,9 @@ body {
 }
 
 body {
+   /* TODO set this var in utility ? */
    --header-height: 130px;
 
-   min-height: 100%;
    font-family: 'Railway';
    grid-template-columns: var(--col-gap-body) [main]1fr var(--col-gap-body);
    grid-template-rows: [header]var(--header-height) [main]1fr [footer]max-content;

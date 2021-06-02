@@ -1,66 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Reservia</title>
 
-      <link href="styles/index.css" rel="stylesheet" />
-      <link rel="icon" type="image/svg+xml" href="assets/images/Reservia.svg" />
-      <script
-         src="https://kit.fontawesome.com/d448b21363.js"
-         crossorigin="anonymous"
-      ></script>
-   </head>
-   <body class="grid">
-      <header class="header grid">
-         <a href="#" class="center-flex">
-            <img src="assets/images/Reservia.svg" alt="Logo Reservia Bleu" />
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Reservia</title>
+
+   <link href="styles/index.css" rel="stylesheet" />
+   <link rel="icon" type="image/svg+xml" href="assets/images/Reservia.svg" />
+   <script src="https://kit.fontawesome.com/d448b21363.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="grid">
+   <header class="header grid">
+      <a href="#" class="center-flex">
+         <img src="assets/images/Reservia.svg" alt="Logo Reservia Bleu" />
+      </a>
+      <button class="center-flex">
+         <span class="bold color-primary">S'inscrire</span>
+      </button>
+      <nav class="flex">
+         <a class="center-flex active color-text f-200" href="#hebergements">
+            Hébergements
          </a>
-         <button class="center-flex">
-            <span class="bold color-primary">S'inscrire</span>
-         </button>
-         <nav class="flex">
-            <a class="center-flex active color-text f-200" href="#hebergements">
-               Hébergements
-            </a>
-            <a class="center-flex color-text f-200" href="#activites">
-               Activités
-            </a>
-         </nav>
-      </header>
+         <a class="center-flex color-text f-200" href="#activites">
+            Activités
+         </a>
+      </nav>
+   </header>
 
-      <main data-area="main">
-         <section class="search">
-            <header class="grid">
-               <h1 class="bold f-400">
-                  Trouvez votre hébergement pour des vacances de rêve
-               </h1>
-               <h2 class="regular f-200">
-                  En plein centre ville ou pleine nature
-               </h2>
-            </header>
+   <main data-area="main">
+      <section class="search grid">
+         <header class="grid">
+            <h1 class="bold f-400">
+               Trouvez votre hébergement pour des vacances de rêve
+            </h1>
+            <h2 class="regular f-200">
+               En plein centre ville ou pleine nature
+            </h2>
+         </header>
 
-            <form>
-               <i class="fas fa-map-marker-alt"></i>
-               <input
-                  type="search"
-                  name=""
-                  id=""
-                  aria-label="Cherchez une ville"
-               />
-               <button type="submit">
-                  <i class="fas fa-search"></i>
-               </button>
-            </form>
+         <form class="grid">
+            <span class="center-flex bg-background-darker"><i class="fas fa-map-marker-alt"></i></span>
+            <input class="bold f-200" type="search" name="" id="" aria-label="Cherchez une ville" />
+            <button class="center-flex bg-primary" type="submit" aria-label="Lancez votre recherche">
+               <i class="fas fa-search color-background"></i>
+               <span>Rechercher</span>
+            </button>
+         </form>
 
-            <article></article>
-         </section>
+         <article>
+            <h1 class="bold f-300">Filtres</h1>
+            <div class="flex">
+               <button>Economique</button>
+               <button>Familiale</button>
+               <button>Romantique</button>
+               <button>Animaux autorisés</button>
+            </div>
+         </article>
+      </section>
 
-         <section id="hebergements" class="hebergement"></section>
-         <section id="actives" class="activite"></section>
-      </main>
-      <footer data-area="main footer"></footer>
-   </body>
+      <section id="hebergements" class="hebergement"></section>
+      <section id="actives" class="activite"></section>
+   </main>
+   <footer data-area="main footer"></footer>
+</body>
+
 </html>

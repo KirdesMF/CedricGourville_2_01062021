@@ -1,3 +1,40 @@
+/*=============================================
+=            Section  Search            =
+=============================================*/
+section.search {
+   row-gap: var(--row-gap);
+}
+/* Header */
 section.search > header {
    row-gap: 0.875rem;
+}
+
+section.search > form {
+   grid-auto-flow: column;
+   grid-template-columns: 3rem [input-start]1fr [btn-start]1.5rem [input-end]1.5rem;
+   grid-template-rows: 3rem;
+}
+
+/* Form */
+section.search > form > span {
+   border-radius: var(--radius) 0 0 var(--radius);
+}
+
+section.search > form > input {
+   border: 1px solid var(--background-darker);
+   grid-column: input-start / input-end;
+   grid-row: 1;
+   font-family: 'Railway';
+   padding-left: var(--padding-input);
+}
+
+section.search > form > button {
+   border-radius: var(--radius);
+   grid-column: btn-start / -1;
+   grid-row: 1;
+}
+
+section.search > form > button > span {
+   display: none;
+   visibility: hidden;
 }
