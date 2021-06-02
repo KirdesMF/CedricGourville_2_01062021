@@ -5,8 +5,13 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Reservia</title>
+
       <link href="styles/index.css" rel="stylesheet" />
       <link rel="icon" type="image/svg+xml" href="assets/images/Reservia.svg" />
+      <script
+         src="https://kit.fontawesome.com/d448b21363.js"
+         crossorigin="anonymous"
+      ></script>
    </head>
    <body class="grid">
       <header class="header grid">
@@ -25,6 +30,7 @@
             </a>
          </nav>
       </header>
+
       <main data-area="main">
          <section class="search">
             <header class="grid">
@@ -35,9 +41,23 @@
                   En plein centre ville ou pleine nature
                </h2>
             </header>
-            <form></form>
+
+            <form>
+               <i class="fas fa-map-marker-alt"></i>
+               <input
+                  type="search"
+                  name=""
+                  id=""
+                  aria-label="Cherchez une ville"
+               />
+               <button type="submit">
+                  <i class="fas fa-search"></i>
+               </button>
+            </form>
+
             <article></article>
          </section>
+
          <section id="hebergements" class="hebergement"></section>
          <section id="actives" class="activite"></section>
       </main>
