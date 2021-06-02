@@ -20,7 +20,7 @@
       <button class="center-flex">
          <span class="bold color-primary">S'inscrire</span>
       </button>
-      <nav class="flex">
+      <nav class="flex" aria-labelledby="Header Navigation">
          <a class="center-flex active color-text f-200" href="#hebergements">
             Hébergements
          </a>
@@ -51,7 +51,7 @@
          </form>
 
          <article class="filters flex">
-            <h1 class="bold f-300">Filtres</h1>
+            <h3 class="bold f-300">Filtres</h3>
             <div class="btns flex flex-wrap">
                <button>
                   <span class="center-flex color-primary bg-primary-lighter">
@@ -79,12 +79,35 @@
          </article>
       </section>
 
-      <section id="hebergements" class="hebergement grid">
-         <article class="bg-background-darker"></article>
-         <aside class="bg-background-darker"></aside>
-      </section>
+      <div id="hebergements" class="hebergement grid">
+         <section class="grid bg-background-darker">
+            <h2>Hébergements</h2>
+            <article class="cards grid">
+               <img src="" alt="">
+               <h3 class="bold">Hôtel</h3>
+               <p><small>Nuit à 125€</small></p>
+               <div>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+               </div>
+            </article>
+            <article><img src="" alt=""></article>
+            <article><img src="" alt=""></article>
+            <article><img src="" alt=""></article>
+            <article><img src="" alt=""></article>
+            <article><img src="" alt=""></article>
+         </section>
+         <aside class="bg-background-darker">
+            <h2>Populaires</h2>
+         </aside>
+      </div>
 
-      <section id="actives" class="activite"></section>
+      <section id="actives" class="activite">
+         <h2>Activités</h2>
+      </section>
    </main>
    <footer data-area="main footer"></footer>
 </body>
