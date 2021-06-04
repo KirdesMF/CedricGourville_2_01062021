@@ -24,6 +24,6 @@
 
 @media screen and (min-width: 42em) {
    .wrapper {
-      --max-width: 85%;
+      --max-width: 80%;
    }
 }

@@ -37,7 +37,6 @@
 
    .hebergements .main,
    .hebergements .famous {
-      flex: 1;
       padding: var(--flow-gap, 1.5rem);
    }
 }
