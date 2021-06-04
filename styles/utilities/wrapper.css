@@ -1,0 +1,29 @@
+.wrapper {
+  --padding: 1.5rem;
+  max-width: 87.5rem;
+
+  padding-inline-start: var(--padding);
+  padding-inline-end: var(--padding);
+
+  margin-inline-start: auto;
+  margin-left: auto;
+
+  margin-inline-end: auto;
+  margin-right: auto;
+}
+
+.md\:wrapper {
+  padding-inline-start: 0;
+  padding-inline-end: 0;
+}
+
+@media screen and (min-width: 42em) {
+  .wrapper {
+    --padding: 3.125rem;
+  }
+
+  .md\:wrapper {
+    padding-inline-start: var(--padding);
+    padding-inline-end: var(--padding);
+  }
+}

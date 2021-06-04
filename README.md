@@ -1,3 +1,3 @@
-## 👷 OpenClassRoom P2
+# OpenClassRoom P2 🚀
 
-## Refont css based on https://codesandbox.io/s/p2-oc-reservia-5u12z
+https://codesandbox.io/s/github/KirdesMF/reservia-css-refont/tree/main/
