@@ -6,10 +6,7 @@
    padding-inline-end: var(--padding);
 
    margin-inline-start: auto;
-   margin-left: auto;
-
    margin-inline-end: auto;
-   margin-right: auto;
 }
 
 @media screen and (min-width: 42em) {
