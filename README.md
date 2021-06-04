@@ -1,3 +1,3 @@
 ## 👷 OpenClassRoom P2
 
-### Gourville Cédric
+## Refont css based on https://codesandbox.io/s/p2-oc-reservia-5u12z
