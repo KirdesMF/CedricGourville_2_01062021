@@ -1,43 +1,43 @@
 .cards-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
-  gap: 1.25rem;
-  place-content: center;
-  place-items: center;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
+   gap: var(--flow-gap, 1.5rem);
+   place-content: center;
+   place-items: center;
 }
 
 .cards-grid > .card {
-  display: grid;
-  grid-template-rows: 6rem repeat(3, 0.2fr);
-  grid-template-columns: minmax(12.5rem, 1fr);
+   display: grid;
+   grid-template-rows: 6rem repeat(3, 0.2fr);
+   grid-template-columns: minmax(12.5rem, 1fr);
 
-  border-radius: var(--radius);
+   border-radius: var(--radius);
 
-  background: var(--bg);
-  box-shadow: 0 0 15px hsla(0, 0%, 0%, 0.2);
+   background: var(--bg);
+   box-shadow: 0 0 15px hsla(0, 0%, 0%, 0.2);
 }
 
-.cards-grid[data-flow="row"] > .card {
-  display: grid;
-  grid-template-columns: 6rem repeat(3, 0.2fr);
-  grid-template-rows: minmax(12.5rem, 1fr);
+.cards-grid[data-flow='row'] > .card {
+   display: grid;
+   grid-template-columns: 6rem repeat(3, 0.2fr);
+   grid-template-rows: minmax(12.5rem, 1fr);
 
-  border-radius: var(--radius);
+   border-radius: var(--radius);
 
-  background: var(--bg);
-  box-shadow: 0 0 15px hsla(0, 0%, 0%, 0.2);
+   background: var(--bg);
+   box-shadow: 0 0 15px hsla(0, 0%, 0%, 0.2);
 }
 
 .cards-grid img {
-  width: 100%;
-  height: 100%;
-  padding: 0.1875rem 0.1875rem 0.5rem 0.1875rem;
-  object-fit: cover;
-  border-start-start-radius: var(--radius);
-  border-start-end-radius: var(--radius);
+   width: 100%;
+   height: 100%;
+   padding: 0.1875rem 0.1875rem 0.5rem 0.1875rem;
+   object-fit: cover;
+   border-start-start-radius: var(--radius);
+   border-start-end-radius: var(--radius);
 }
 
 .cards-grid > .card > * + * {
-  padding-inline-start: 0.5rem;
-  padding-block-end: 0.3125rem;
+   padding-inline-start: 0.5rem;
+   padding-block-end: 0.3125rem;
 }

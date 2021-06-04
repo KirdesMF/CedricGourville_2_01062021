@@ -1,4 +1,4 @@
 .grid-flow {
    display: grid;
-   gap: 1.5rem;
+   gap: var(--flow-gap, 1.5rem);
 }

@@ -6,13 +6,13 @@
 .hebergements .inner {
    display: flex;
    flex-wrap: wrap-reverse;
-   gap: 1rem;
+   gap: var(--flow-gap, 1.5rem);
 }
 
 .hebergements .main,
 .hebergements .famous {
    flex: 1;
-   padding: 1.5rem 0;
+   padding: var(--flow-gap, 1.5rem) 0;
 }
 
 .hebergements .main button {
@@ -38,6 +38,6 @@
    .hebergements .main,
    .hebergements .famous {
       flex: 1;
-      padding: 1.5rem;
+      padding: var(--flow-gap, 1.5rem);
    }
 }
