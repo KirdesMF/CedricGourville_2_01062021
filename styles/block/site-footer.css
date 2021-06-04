@@ -1,0 +1,6 @@
+.site-footer .inner {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding-block-start: var(--padding);
+}

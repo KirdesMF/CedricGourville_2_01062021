@@ -1,0 +1,37 @@
+.hebergements {
+  transition: background-color 1s ease-in;
+  --radius: 0.6rem;
+}
+
+.hebergements .inner {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 1rem;
+}
+
+.hebergements .main,
+.hebergements .famous {
+  flex: 1;
+  padding: 1.5rem;
+}
+
+.hebergements .main button {
+  border: none;
+}
+
+.hebergements .main button:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 42em) {
+  .hebergements .main {
+    flex: 1;
+
+    border-radius: var(--radius);
+  }
+
+  .hebergements .famous {
+    flex: 0.5;
+    border-radius: var(--radius);
+  }
+}
