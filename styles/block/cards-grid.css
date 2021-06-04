@@ -21,11 +21,6 @@
    display: grid;
    grid-template-columns: 6rem repeat(3, 0.2fr);
    grid-template-rows: minmax(12.5rem, 1fr);
-
-   border-radius: var(--radius);
-
-   background: var(--bg);
-   box-shadow: 0 0 15px hsla(0, 0%, 0%, 0.2);
 }
 
 .cards-grid img {

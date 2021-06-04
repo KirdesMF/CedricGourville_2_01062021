@@ -46,3 +46,7 @@ h3 {
 .f-small {
    font-size: 0.75rem;
 }
+
+.f-fluid {
+   font-size: clamp(0.1rem, 0.5rem + 1vw, 1rem);
+}

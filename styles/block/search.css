@@ -1,122 +1,121 @@
 /** Form */
 .search .form {
-  --radius: 0.6rem;
-  display: grid;
-  grid-auto-flow: column;
-  grid-template-columns: [logo]3rem [input]1fr [btn]min-content;
-  grid-template-rows: 3rem;
+   --radius: 0.6rem;
+   display: grid;
+   grid-auto-flow: column;
+   grid-template-columns: [logo]3rem [input]1fr [btn]min-content;
+   grid-template-rows: 3rem;
 }
 
 .search .form > .logo {
-  display: inline-grid;
-  place-items: center;
-  border-start-start-radius: var(--radius);
-  border-end-start-radius: var(--radius);
+   display: inline-grid;
+   place-items: center;
+   border-start-start-radius: var(--radius);
+   border-end-start-radius: var(--radius);
 }
 
 .search .form > input {
-  border: 1px solid var(--bg-darker);
+   border: 1px solid var(--bg-darker);
 }
 
 .search .form > .btn {
-  padding-inline-end: 1em;
-  padding-inline-start: 0.875em;
+   padding-inline-end: 1em;
+   padding-inline-start: 0.875em;
 
-  border: none;
-  border-start-start-radius: var(--radius);
-  border-start-end-radius: var(--radius);
-  border-end-start-radius: var(--radius);
-  border-end-end-radius: var(--radius);
+   border: none;
+   border-start-start-radius: var(--radius);
+   border-start-end-radius: var(--radius);
+   border-end-start-radius: var(--radius);
+   border-end-end-radius: var(--radius);
 
-  transform: translateX(-50%);
-  transition: transform 500ms linear;
+   transform: translateX(-50%);
+   transition: transform 500ms linear;
 }
 
 .search .form > .btn .content {
-  display: none;
-  visibility: hidden;
+   display: none;
+   visibility: hidden;
 }
 
 @media screen and (min-width: 42em) {
-  .search .form {
-    grid-template-columns: [logo]3rem [input]18.75rem [btn]min-content;
-  }
+   .search .form {
+      grid-template-columns: [logo]3rem [input]18.75rem [btn]min-content;
+   }
 
-  .search .form > .btn {
-    padding-inline-end: 1em;
-    padding-inline-start: 0.875em;
+   .search .form > .btn {
+      padding-inline-end: 1em;
+      padding-inline-start: 0.875em;
 
-    border: none;
-    border-start-start-radius: 0;
-    border-end-start-radius: 0;
-    border-start-end-radius: var(--radius);
-    border-end-end-radius: var(--radius);
+      border: none;
+      border-start-start-radius: 0;
+      border-end-start-radius: 0;
+      border-start-end-radius: var(--radius);
+      border-end-end-radius: var(--radius);
 
-    transform: translateX(0%);
-  }
+      transform: translateX(0%);
+   }
 
-  .search .form > .btn .content {
-    display: block;
-    visibility: visible;
-  }
+   .search .form > .btn .content {
+      display: block;
+      visibility: visible;
+   }
 
-  .search .form > .btn .icon {
-    display: none;
-    visibility: hidden;
-  }
+   .search .form > .btn .icon {
+      display: none;
+      visibility: hidden;
+   }
 }
 
 /** Filters */
 .search .filters {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  align-items: center;
+   display: flex;
+   flex-wrap: wrap;
+   gap: var(--flow-gap, 1.5rem);
+   align-items: center;
 }
 
 .search .filters > .btn {
-  display: grid;
-  grid-auto-flow: column;
-  grid-template-columns: [logo-start]2rem [content-start]min-content;
-  grid-template-rows: 3rem;
-  column-gap: 1.5rem;
-  place-items: center;
+   display: grid;
+   grid-auto-flow: column;
+   grid-template-columns: [logo-start]2rem [content-start]min-content;
+   grid-template-rows: 3rem;
+   column-gap: var(--flow-gap, 1.5rem);
+   place-items: center;
 
-  border: 2px solid var(--bg-darker);
-  border-radius: 3rem;
+   border: 2px solid var(--bg-darker);
+   border-radius: 3rem;
 }
 
 .search .filters .logo {
-  display: grid;
-  place-items: center;
+   display: grid;
+   place-items: center;
 
-  width: calc(3rem + 3px);
-  height: calc(3rem + 3px);
-  border-radius: 50%;
+   width: calc(3rem + 3px);
+   height: calc(3rem + 3px);
+   border-radius: 50%;
 }
 
 .search .filters .content {
-  display: grid;
-  place-items: center;
+   display: grid;
+   place-items: center;
 
-  white-space: nowrap;
-  padding-inline-end: 1.5rem;
+   white-space: nowrap;
+   padding-inline-end: var(--flow-gap, 1.5rem);
 }
 
 /** Info */
 .search .info {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 1rem;
+   display: flex;
+   align-items: center;
+   gap: var(--flow-gap, 1.5rem);
 }
 
 .search .info > .logo {
-  display: grid;
-  place-items: center;
+   display: grid;
+   place-items: center;
 
-  width: 2rem;
-  height: 2rem;
-  border: 1px solid var(--bg-darker);
-  border-radius: 50%;
+   width: 2rem;
+   height: 2rem;
+   border: 1px solid var(--bg-darker);
+   border-radius: 50%;
 }

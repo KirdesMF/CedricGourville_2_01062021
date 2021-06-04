@@ -1,6 +1,13 @@
-.site-footer .inner {
-  display: flex;
-  flex-wrap: wrap;
+.site-footer {
+   padding-block-start: var(--flow-gap);
+   padding-block-end: var(--flow-gap);
+}
 
-  padding-block-start: var(--padding);
+.site-footer .inner {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.site-footer .inner > * {
+   flex: 1;
 }
