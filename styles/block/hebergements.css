@@ -1,37 +1,43 @@
 .hebergements {
-  transition: background-color 1s ease-in;
-  --radius: 0.6rem;
+   transition: background-color 1s ease-in;
+   --radius: 0.6rem;
 }
 
 .hebergements .inner {
-  display: flex;
-  flex-wrap: wrap-reverse;
-  gap: 1rem;
+   display: flex;
+   flex-wrap: wrap-reverse;
+   gap: 1rem;
 }
 
 .hebergements .main,
 .hebergements .famous {
-  flex: 1;
-  padding: 1.5rem;
+   flex: 1;
+   padding: 1.5rem 0;
 }
 
 .hebergements .main button {
-  border: none;
+   border: none;
 }
 
 .hebergements .main button:hover {
-  cursor: pointer;
+   cursor: pointer;
 }
 
 @media screen and (min-width: 42em) {
-  .hebergements .main {
-    flex: 1;
+   .hebergements .main {
+      flex: 1;
 
-    border-radius: var(--radius);
-  }
+      border-radius: var(--radius);
+   }
 
-  .hebergements .famous {
-    flex: 0.5;
-    border-radius: var(--radius);
-  }
+   .hebergements .famous {
+      flex: 0.5;
+      border-radius: var(--radius);
+   }
+
+   .hebergements .main,
+   .hebergements .famous {
+      flex: 1;
+      padding: 1.5rem;
+   }
 }

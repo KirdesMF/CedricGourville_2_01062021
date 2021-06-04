@@ -1,52 +1,54 @@
 :root {
-  --bg: #ffffff;
-  --bg-darker: #f2f2f2;
-  --primary: #0065fc;
-  --primary-lighter: #deebff;
+   --bg: #ffffff;
+   --bg-darker: #f2f2f2;
+   --primary: #0065fc;
+   --primary-lighter: #deebff;
 }
 
 /** background colors */
 .bg {
-  background-color: var(--bg);
+   background-color: var(--bg);
 }
 
 .bg-darker {
-  background-color: var(--bg-darker);
+   background-color: var(--bg-darker);
 }
 
 .bg-primary {
-  background-color: var(--primary);
+   background-color: var(--primary);
 }
 
 .bg-primary-lighter {
-  background-color: var(--primary-lighter);
+   background-color: var(--primary-lighter);
 }
 
-@media screen and (max-width: 42em) {
-  .xs\:bg-unset {
-    background-color: unset;
-  }
+.bg-unset {
+   background-color: unset;
 }
 
 @media screen and (min-width: 42em) {
-  .md\:bg-unset {
-    background-color: unset;
-  }
+   .md\:bg-unset {
+      background-color: unset;
+   }
+
+   .md\:bg-darker {
+      background-color: var(--bg-darker);
+   }
 }
 
 /** color */
 .color-bg {
-  color: var(--bg);
+   color: var(--bg);
 }
 
 .color-bg-darker {
-  color: var(--bg-darker);
+   color: var(--bg-darker);
 }
 
 .color-primary {
-  color: var(--primary);
+   color: var(--primary);
 }
 
 .color-primary-lighter {
-  color: var(--primary-lighter);
+   color: var(--primary-lighter);
 }
