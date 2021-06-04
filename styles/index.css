@@ -1,19 +1,19 @@
-@import "reset.css";
-@import "global.css";
+@import 'reset.css';
+@import 'global.css';
 
 /** Composition */
-@import "composition/flow.css";
 
 /** Utilities */
-@import "utilities/fonts.css";
-@import "utilities/colors.css";
-@import "utilities/wrapper.css";
+@import 'utilities/fonts.css';
+@import 'utilities/colors.css';
+@import 'utilities/flow.css';
+@import 'utilities/wrapper.css';
 
 /** Block */
-@import "block/site-header.css";
-@import "block/search.css";
-@import "block/hebergements.css";
-@import "block/cards-grid.css";
-@import "block/site-footer.css";
+@import 'block/site-header.css';
+@import 'block/search.css';
+@import 'block/hebergements.css';
+@import 'block/cards-grid.css';
+@import 'block/site-footer.css';
 
 /** Exceptions */
