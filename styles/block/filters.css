@@ -1,0 +1,40 @@
+.filters {
+   display: flex;
+   flex-wrap: wrap;
+   gap: var(--flow-gap, 1.5rem);
+   align-items: center;
+}
+
+.filters input {
+   visibility: hidden;
+   display: none;
+}
+
+.filters .label {
+   display: grid;
+   grid-auto-flow: column;
+   grid-template-columns: [logo-start]2rem [content-start]min-content;
+   grid-template-rows: 3rem;
+   column-gap: var(--flow-gap, 1.5rem);
+   place-items: center;
+
+   border: 2px solid var(--bg-darker);
+   border-radius: 3rem;
+}
+
+.filters .logo {
+   display: grid;
+   place-items: center;
+
+   width: calc(3rem + 3px);
+   height: calc(3rem + 3px);
+   border-radius: 50%;
+}
+
+.filters .content {
+   display: grid;
+   place-items: center;
+
+   white-space: nowrap;
+   padding-inline-end: var(--flow-gap, 1.5rem);
+}

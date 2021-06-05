@@ -11,6 +11,7 @@
 /** Block */
 @import 'block/site-header.css';
 @import 'block/search.css';
+@import 'block/filters.css';
 @import 'block/hebergements.css';
 @import 'block/cards-grid.css';
 @import 'block/site-footer.css';
