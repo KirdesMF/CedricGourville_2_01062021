@@ -1,6 +1,6 @@
 .cards-grid {
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
+   grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
    gap: var(--flow-gap, 1.5rem);
    place-content: center;
    place-items: center;
@@ -8,21 +8,21 @@
 
 .cards-grid > .card {
    display: grid;
-   grid-template-rows: 6rem repeat(2, 0.2fr);
-   grid-template-columns: minmax(12.5rem, 1fr);
+   grid-template-rows: 1fr repeat(2, 0.2fr);
+   grid-template-columns: 1fr;
    gap: 0.25rem;
 
    border-radius: var(--radius);
-
    background: var(--bg);
    box-shadow: 0 0 15px hsla(0, 0%, 0%, 0.2);
 }
 
 .cards-grid img {
    width: 100%;
-   height: 100%;
+   height: 7.55rem;
    border: 3px solid white;
    object-fit: cover;
+   object-position: center;
    border-start-start-radius: var(--radius);
    border-start-end-radius: var(--radius);
 }
@@ -33,14 +33,14 @@
 
 /** Exceptions */
 .cards-grid[data-flow='row'] {
-   grid-template-columns: min-content;
+   grid-template-columns: 1fr;
    grid-template-rows: 1fr 1fr 1fr;
 }
 
 .cards-grid[data-flow='row'] > .card {
    display: grid;
-   grid-template-columns: 7rem 12.5rem;
-   grid-template-rows: 4.3rem 3rem;
+   grid-template-columns: 1fr 1.5fr;
+   grid-template-rows: 1fr 1fr;
    gap: 0.25rem;
 }
 
@@ -56,5 +56,44 @@
 }
 
 .cards-grid[data-grid='custom'] {
-   grid-template-columns: repeat();
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: repeat(2, 1fr);
+   gap: var(--flow-gap);
+}
+
+.cards-grid[data-grid='custom'] .card {
+   display: grid;
+   grid-template-rows: 1fr 0.2fr;
+   grid-template-columns: minmax(12.5rem, 1fr);
+   gap: 0.25rem;
+}
+
+.cards-grid[data-grid='custom'] .card:first-child {
+   grid-column: 1;
+   grid-row: 1 / -1;
+}
+
+.cards-grid[data-grid='custom'] .card:nth-child(2) {
+   grid-column: 2;
+   grid-row: 1 / 2;
+}
+
+.cards-grid[data-grid='custom'] .card:nth-child(3) {
+   grid-column: 3;
+   grid-row: 2 / 3;
+}
+
+.cards-grid[data-grid='custom'] .card:nth-child(4) {
+   grid-column: 2;
+   grid-row: 1 / -1;
+}
+
+.cards-grid[data-grid='custom'] .card:nth-child(5) {
+   grid-column: 4;
+   grid-row: 1 / 2;
+}
+
+.cards-grid[data-grid='custom'] .card:nth-child(6) {
+   grid-column: 4;
+   grid-row: 2 / 3;
 }

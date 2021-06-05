@@ -12,6 +12,10 @@
 .hebergements .famous {
    flex: 1;
    padding: var(--flow-gap, 1.5rem) 0;
+
+   display: grid;
+   grid-template-rows: min-content 1fr minmax(1.5rem, 3rem);
+   gap: var(--flow-gap, 1.5rem);
 }
 
 .hebergements .famous .title {
