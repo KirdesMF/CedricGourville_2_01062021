@@ -1,0 +1,12 @@
+:root {
+   --radius: 0.6rem;
+}
+
+a {
+   color: currentColor;
+}
+
+:focus {
+   outline: 2px dotted var(--primary);
+   outline-offset: 0.25rem;
+}

@@ -11,3 +11,8 @@
 .site-footer .inner > * {
    flex: 1;
 }
+
+.site-footer ul {
+   list-style: none;
+   padding: 0;
+}

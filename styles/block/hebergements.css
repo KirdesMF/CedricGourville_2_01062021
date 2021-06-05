@@ -1,6 +1,5 @@
 .hebergements {
    transition: background-color 1s ease-in;
-   --radius: 0.6rem;
 }
 
 .hebergements .inner {
@@ -15,12 +14,9 @@
    padding: var(--flow-gap, 1.5rem) 0;
 }
 
-.hebergements .main button {
-   border: none;
-}
-
-.hebergements .main button:hover {
-   cursor: pointer;
+.hebergements .famous .title {
+   display: flex;
+   justify-content: space-between;
 }
 
 @media screen and (min-width: 42em) {
