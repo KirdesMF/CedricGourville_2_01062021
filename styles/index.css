@@ -17,6 +17,7 @@
 @import 'block/filters.css';
 @import 'block/hebergements.css';
 @import 'block/cards-grid.css';
+@import 'block/card.css';
 @import 'block/site-footer.css';
 
 /** Exceptions */
