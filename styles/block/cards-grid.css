@@ -18,7 +18,7 @@
 }
 
 .cards-grid img {
-   width: 32rem;
+   width: 100%;
    height: 8rem;
    border: 3px solid var(--bg);
    object-fit: cover;
