@@ -1,6 +1,10 @@
 :root {
-   --radius: 0.6rem;
    --flow-gap: 1.5rem;
+
+   --xs: 576px;
+   --md: 768px;
+   --lg: 992px;
+   --xl: 1200px;
 }
 
 body {

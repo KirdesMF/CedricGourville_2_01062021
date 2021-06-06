@@ -4,7 +4,7 @@
 
 .hebergements .inner {
    display: flex;
-   flex-wrap: wrap-reverse;
+   flex-wrap: wrap;
    gap: var(--flow-gap, 1.5rem);
 }
 
@@ -18,6 +18,10 @@
    gap: var(--flow-gap, 1.5rem);
 }
 
+.hebergements .main .btn {
+   place-self: center start;
+}
+
 .hebergements .famous .title {
    display: flex;
    justify-content: space-between;
@@ -26,13 +30,10 @@
 @media screen and (min-width: 42em) {
    .hebergements .main {
       flex: 1;
-
-      border-radius: var(--radius);
    }
 
    .hebergements .famous {
       flex: 0.5;
-      border-radius: var(--radius);
    }
 
    .hebergements .main,
