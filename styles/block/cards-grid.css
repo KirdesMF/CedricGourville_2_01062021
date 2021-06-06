@@ -55,13 +55,9 @@
    align-self: end;
 }
 
-.cards-grid[data-grid='custom'] {
-   grid-template-columns: repeat(4, 1fr);
-   grid-template-rows: repeat(2, 1fr);
-   gap: var(--flow-gap);
-}
+/* * Custom */
 
-.cards-grid[data-grid='custom'] .card {
+.cards-grid[data-flow='custom'] .card {
    display: grid;
    grid-template-rows: 1fr 0.2fr;
    grid-template-columns: minmax(12.5rem, 1fr);

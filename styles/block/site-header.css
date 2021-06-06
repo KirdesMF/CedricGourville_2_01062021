@@ -1,5 +1,5 @@
 .site-header {
-   --padding-block: 0.875rem;
+   --padding-block: var(--flow-gap);
 
    position: sticky;
    top: 0;
@@ -7,7 +7,6 @@
    width: 100%;
 
    padding-block-start: var(--padding-block);
-   padding-block-end: var(--padding-block);
 }
 
 .site-header .inner {
@@ -45,7 +44,7 @@
 }
 
 .site-header .nav > a.active {
-   border-bottom: 3px solid var(--primary);
+   border-bottom: 5px solid var(--primary);
    color: var(--primary);
 }
 
@@ -62,7 +61,7 @@
 *
 * Desktop
 */
-@media screen and (min-width: 42em) {
+@media screen and (min-width: 768px) {
    .site-header {
       --padding-block: 0;
    }
