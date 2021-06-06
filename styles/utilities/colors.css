@@ -26,7 +26,7 @@
    background-color: unset;
 }
 
-@media screen and (min-width: 42em) {
+@media screen and (min-width: 768px) {
    .md\:bg-unset {
       background-color: unset;
    }

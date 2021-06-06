@@ -1,6 +1,6 @@
 .cards-grid {
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+   grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
    gap: var(--flow-gap, 1.5rem);
 
    place-items: center;
@@ -19,7 +19,7 @@
 
 .cards-grid img {
    width: 100%;
-   height: 8rem;
+   height: 7.5rem;
    border: 3px solid var(--bg);
    object-fit: cover;
    object-position: center;
@@ -33,14 +33,14 @@
 
 /** Exceptions */
 .cards-grid[data-flow='row'] {
-   grid-auto-rows: 1fr;
-   grid-template-columns: minmax(14.5rem, 1fr);
+   grid-auto-rows: max-content;
+   grid-template-columns: 1fr;
 }
 
 .cards-grid[data-flow='row'] > .card {
    display: grid;
-   grid-template-columns: 1fr 1.5fr;
-   grid-template-rows: 1fr 1fr;
+   grid-template-columns: 0.5fr 1fr;
+   grid-template-rows: 1fr 0.3fr;
    gap: 0.25rem;
 }
 
