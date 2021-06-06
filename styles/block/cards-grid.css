@@ -1,13 +1,17 @@
 .cards-grid {
+   --size-card: 7rem;
+
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+   grid-template-columns: repeat(
+      auto-fit,
+      minmax(calc(var(--size-card) * 2), 1fr)
+   );
    gap: var(--flow-gap, 1.5rem);
-   place-items: center;
 }
 
 /** Exceptions */
 .cards-grid[data-flow='row'] {
-   grid-auto-rows: max-content;
+   grid-template-rows: repeat(3, var(--size-card));
    grid-template-columns: 1fr;
 }
 
@@ -15,6 +19,5 @@
    .cards-grid[data-flow='custom'] {
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: repeat(4, 1fr);
-      place-items: unset;
    }
 }

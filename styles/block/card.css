@@ -2,7 +2,7 @@
    --gap-card: 0.25rem;
 
    display: grid;
-   grid-template-rows: 1fr repeat(2, 0.2fr);
+   grid-template-rows: var(--size-card) 0.5fr;
    grid-template-columns: 1fr;
    gap: var(--gap-card);
 
@@ -11,19 +11,26 @@
    box-shadow: 0 0 15px hsla(0, 0%, 0%, 0.2);
 }
 
-.card img {
+.cards-grid .card img {
    width: 100%;
-   height: 7.5rem;
+   height: var(--size-card);
    object-fit: cover;
 
-   border: 3px solid var(--bg);
+   border: 5px solid var(--bg);
    border-start-start-radius: var(--radius);
    border-start-end-radius: var(--radius);
+}
+
+.cards-grid .card .content {
+   display: grid;
+   gap: 0.25rem;
 }
 
 .cards-grid > .card > * + * {
    padding: 0.5rem;
 }
+
+/* Populaire */
 
 .cards-grid[data-flow='row'] > .card {
    grid-template-columns: 0.5fr 1fr;
@@ -32,9 +39,15 @@
 
 .cards-grid[data-flow='row'] .card img {
    grid-row: 1 / -1;
+   max-height: 100%;
+   height: 100%;
 
    border-start-end-radius: 0;
    border-end-start-radius: var(--radius);
+}
+
+.cards-grid[data-flow='row'] .card .content {
+   align-self: center;
 }
 
 .cards-grid[data-flow='row'] .card .rate {
@@ -43,21 +56,18 @@
 
 /* Custom */
 
+.cards-grid[data-flow='custom'] .card {
+   grid-template-rows: 1fr 2.5rem;
+   grid-template-columns: 1fr;
+   place-items: center start;
+}
+
+.cards-grid[data-flow='custom'] .card img {
+   border: none;
+}
+
 @media screen and (min-width: 992px) {
-   .cards-grid[data-flow='custom'] .card {
-      grid-template-rows: 1fr 2.5rem;
-      grid-template-columns: 1fr;
-   }
-
-   .cards-grid[data-flow='custom'] img {
-      border: none;
-      max-height: auto;
-      object-fit: cover;
-   }
-
    .cards-grid[data-flow='custom'] .card:nth-child(3n + 1) img {
-      border: none;
-      object-fit: cover;
       min-height: calc(100% - calc(2.5rem + var(--gap-card)));
    }
 
