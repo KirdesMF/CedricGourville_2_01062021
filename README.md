@@ -1,3 +1,15 @@
-# OpenClassRoom P2 🚀
+## OpenClassRoom P2 🚀
 
-https://codesandbox.io/s/github/KirdesMF/reservia-css-refont/tree/main/
+---
+
+## Description
+
+> Projet _P2_ OpenClassRoom Maquette to HTML / CSS no frameworks
+
+## To-do
+
+1. Clean CSS
+2. Add Dark Mode ?
+3. Figma Link
+
+### [My Twitter](https://twitter.com/home)
