@@ -16,6 +16,8 @@
    display: grid;
    grid-template-rows: min-content 1fr;
    gap: var(--flow-gap, 1.5rem);
+
+   color: var(--text);
 }
 
 .hebergements .main .btn {
