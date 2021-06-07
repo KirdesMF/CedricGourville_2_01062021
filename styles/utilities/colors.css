@@ -4,7 +4,7 @@
    --primary: #0065fc;
    --primary-lighter: #deebff;
 
-   --selected: hsl(216, 100%, 23%);
+   --checked: hsl(177, 100%, 23%);
    --hovered: hsl(216, 50%, 50%);
 }
 

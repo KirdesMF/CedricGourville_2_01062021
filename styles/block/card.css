@@ -107,7 +107,7 @@
 
 /* Hover State */
 .cards-grid .card:hover {
-   animation: card 100ms ease-in-out;
+   animation: card 400ms ease-in-out;
 }
 
 .cards-grid .card:hover .rate > i {

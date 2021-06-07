@@ -54,3 +54,9 @@
 .filters .label:hover {
    cursor: pointer;
 }
+
+/* Cheched State */
+.filters input[type='checkbox']:checked ~ .logo {
+   background-color: var(--checked);
+   color: var(--bg);
+}
