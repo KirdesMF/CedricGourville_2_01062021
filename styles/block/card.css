@@ -17,8 +17,7 @@
    object-fit: cover;
 
    border: 5px solid var(--bg);
-   border-start-start-radius: var(--radius);
-   border-start-end-radius: var(--radius);
+   border-radius: var(--radius) var(--radius) 0 0;
 }
 
 .cards-grid .card .content {
@@ -40,8 +39,8 @@
 .cards-grid[data-flow='row'] .card img {
    grid-row: 1 / -1;
    height: 100%;
-   border-start-end-radius: 0;
-   border-end-start-radius: var(--radius);
+
+   border-radius: var(--radius) 0 0 var(--radius);
 }
 
 .cards-grid[data-flow='row'] .card .content {

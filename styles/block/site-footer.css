@@ -1,6 +1,5 @@
 .site-footer {
-   padding-block-start: var(--flow-gap);
-   padding-block-end: var(--flow-gap);
+   padding: var(--flow-gap) 0 var(--flow-gap) 0;
 }
 
 .site-footer a {

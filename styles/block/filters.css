@@ -54,7 +54,7 @@
    place-items: center;
 
    white-space: nowrap;
-   padding-inline-end: var(--flow-gap, 1.5rem);
+   padding-right: var(--flow-gap, 1.5rem);
 }
 
 /* Hover State */

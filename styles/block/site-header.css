@@ -6,7 +6,7 @@
    z-index: 1;
    width: 100%;
 
-   padding-block-start: var(--padding-block);
+   padding-top: var(--padding-block);
 }
 
 .site-header .inner {
@@ -21,7 +21,7 @@
    grid-column: logo;
    place-self: center start;
 
-   padding-inline-start: var(--padding);
+   padding-left: var(--padding);
 }
 
 .site-header .logo img {
@@ -74,7 +74,7 @@
    align-self: center;
    justify-self: end;
 
-   padding-inline-end: var(--padding);
+   padding-right: var(--padding);
    transition: transform 100ms ease-in-out;
 }
 
@@ -89,8 +89,9 @@
 
    .site-header .inner {
       display: grid;
-      grid-template-columns: [logo]0.5fr [empty]1fr [nav]1fr [sign]0.5fr;
+      grid-template-columns: [logo]0.5fr [empty]0.5fr [nav]2fr [sign]0.5fr;
       grid-template-rows: var(--fix-row);
+      gap: 1rem;
    }
 
    .site-header .inner > * {
