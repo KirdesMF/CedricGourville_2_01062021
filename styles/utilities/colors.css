@@ -6,6 +6,8 @@
 
    --checked: hsl(177, 100%, 23%);
    --hovered: hsl(216, 50%, 50%);
+
+   --text: #000000;
 }
 
 /** background colors */

@@ -80,3 +80,8 @@
    border: 1px solid var(--bg-darker);
    border-radius: 50%;
 }
+
+/* Hover State */
+.search .form .btn:hover {
+   color: var(--text);
+}
