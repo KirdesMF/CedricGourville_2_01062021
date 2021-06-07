@@ -11,7 +11,7 @@
 
 /** Exceptions */
 .cards-grid[data-flow='row'] {
-   grid-template-rows: repeat(3, var(--size-card));
+   grid-template-rows: repeat(3, calc(var(--size-card) + var(--flow-gap)));
    grid-template-columns: 1fr;
 }
 
