@@ -89,9 +89,8 @@
 
    .site-header .inner {
       display: grid;
-      grid-template-columns: [logo]0.5fr [empty]2fr [nav]1fr [sign]0.5fr;
+      grid-template-columns: [logo]max-content [empty]2fr [nav]1fr [sign]min-content;
       grid-template-rows: var(--fix-row);
-      gap: 1rem;
    }
 
    .site-header .inner > * {
