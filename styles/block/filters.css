@@ -5,11 +5,6 @@
    align-items: center;
 }
 
-.filters input {
-   visibility: hidden;
-   display: none;
-}
-
 .filters .label {
    display: grid;
    grid-auto-flow: column;
@@ -20,6 +15,15 @@
 
    border: 2px solid var(--bg-darker);
    border-radius: 3rem;
+
+   position: relative;
+}
+
+.filters .label > input {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   appearance: unset;
 }
 
 .filters .logo {
