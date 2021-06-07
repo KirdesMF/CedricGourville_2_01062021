@@ -20,6 +20,11 @@
 
 .hebergements .main .btn {
    place-self: center start;
+   transition: color 200ms linear;
+}
+
+.hebergements .main .btn:hover {
+   color: var(--primary);
 }
 
 .hebergements .famous .title {

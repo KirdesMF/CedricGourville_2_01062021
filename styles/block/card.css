@@ -11,6 +11,10 @@
    box-shadow: 0 0 15px hsla(0, 0%, 0%, 0.2);
 }
 
+.cards-grid .card:hover {
+   animation: card 100ms ease-in-out;
+}
+
 .cards-grid .card img {
    width: 100%;
    height: var(--size-card);

@@ -20,4 +20,5 @@
 @import 'block/card.css';
 @import 'block/site-footer.css';
 
-/** Exceptions */
+/** Animation */
+@import 'animation/card.css';
