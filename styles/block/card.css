@@ -106,11 +106,13 @@
 }
 
 /* Hover State */
-.cards-grid .card:hover {
+.cards-grid .card:hover,
+.cards-grid .card:focus {
    animation: card 400ms ease-in-out;
 }
 
-.cards-grid .card:hover .rate > i {
+.cards-grid .card:hover .rate > i,
+.cards-grid .card:focus .rate > i {
    animation: rate 400ms ease-in-out;
    animation-delay: var(--delay);
 }
