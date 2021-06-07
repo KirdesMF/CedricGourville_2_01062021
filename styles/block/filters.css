@@ -6,32 +6,12 @@
    align-items: flex-start;
 }
 
-@media screen and (min-width: 576px) {
-   .filters {
-      flex-direction: row;
-      align-items: center;
-   }
-}
-
-.filters .label {
-   display: grid;
-   grid-auto-flow: column;
-   grid-template-columns: [logo-start]2rem [content-start]min-content;
-   grid-template-rows: 3rem;
-   column-gap: var(--flow-gap, 1.5rem);
-   place-items: center;
-
-   border: 2px solid var(--bg-darker);
-   border-radius: 3rem;
-
-   position: relative;
-}
-
 .filters .label > input[type='checkbox'],
 .filters .label > input {
    appearance: none;
    background-color: unset;
    border: none;
+   opacity: 0;
 
    position: absolute;
    width: 100%;
@@ -62,6 +42,8 @@
 .filters .label > input:focus ~ .logo {
    background-color: var(--primary);
    color: var(--primary-lighter);
+   outline: 2px dotted var(--primary);
+   outline-offset: 0.25rem;
 }
 
 .filters .label:hover .logo > i,
@@ -71,6 +53,27 @@
 
 .filters .label:hover {
    cursor: pointer;
+}
+
+@media screen and (min-width: 576px) {
+   .filters {
+      flex-direction: row;
+      align-items: center;
+   }
+}
+
+.filters .label {
+   display: grid;
+   grid-auto-flow: column;
+   grid-template-columns: [logo-start]2rem [content-start]min-content;
+   grid-template-rows: 3rem;
+   column-gap: var(--flow-gap, 1.5rem);
+   place-items: center;
+
+   border: 2px solid var(--bg-darker);
+   border-radius: 3rem;
+
+   position: relative;
 }
 
 /* Cheched State */
