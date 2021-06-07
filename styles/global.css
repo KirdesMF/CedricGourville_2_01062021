@@ -11,6 +11,7 @@ body {
    overflow-x: hidden;
    color: var(--text);
    background-color: var(--bg);
+   transition: color 500ms ease, background-color 500ms ease;
 }
 
 a {
