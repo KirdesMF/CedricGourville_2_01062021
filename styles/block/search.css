@@ -12,11 +12,16 @@
    place-items: center;
    border-start-start-radius: var(--radius);
    border-end-start-radius: var(--radius);
+   grid-column: logo / 2;
+   grid-row: 1;
 }
 
 .search .form > input {
    border: 1px solid var(--bg-darker);
    padding-inline-start: 1rem;
+   border-radius: 0 var(--radius) var(--radius) 0;
+   grid-column: input / -1;
+   grid-row: 1;
 }
 
 .search .form > input::placeholder {
@@ -24,6 +29,8 @@
 }
 
 .search .form > .btn {
+   grid-column: btn / -1;
+   grid-row: 1;
    padding-inline-end: 1rem;
    padding-inline-start: 1rem;
 
@@ -32,9 +39,6 @@
    border-start-end-radius: var(--radius);
    border-end-start-radius: var(--radius);
    border-end-end-radius: var(--radius);
-
-   transform: translateX(-50%);
-   transition: transform 500ms linear;
 }
 
 .search .form > .btn .content {
