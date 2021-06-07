@@ -109,4 +109,9 @@
    .site-header .sign {
       --padding: 0;
    }
+
+   .site-header .nav > a::before {
+      top: 0;
+      bottom: unset;
+   }
 }

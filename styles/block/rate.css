@@ -13,3 +13,23 @@
 .rate[data-rate='1'] > :first-child {
    color: var(--bg-darker);
 }
+
+.rate > i {
+   --delay: 0ms;
+}
+
+.rate > i:nth-child(2) {
+   --delay: 100ms;
+}
+
+.rate > i:nth-child(3) {
+   --delay: 200ms;
+}
+
+.rate > i:nth-child(4) {
+   --delay: 300ms;
+}
+
+.rate > i:nth-child(5) {
+   --delay: 400ms;
+}

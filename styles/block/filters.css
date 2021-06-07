@@ -29,6 +29,8 @@
    width: calc(3rem + 3px);
    height: calc(3rem + 3px);
    border-radius: 50%;
+
+   transition: background-color 200ms ease-in-out, color 200ms ease-in-out;
 }
 
 .filters .content {
@@ -37,4 +39,18 @@
 
    white-space: nowrap;
    padding-inline-end: var(--flow-gap, 1.5rem);
+}
+
+/* Hover State */
+.filters .label:hover .logo {
+   background-color: var(--primary);
+   color: var(--primary-lighter);
+}
+
+.filters .label:hover .logo > i {
+   animation: wobble 200ms linear;
+}
+
+.filters .label:hover {
+   cursor: pointer;
 }

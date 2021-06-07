@@ -3,6 +3,10 @@
    padding-block-end: var(--flow-gap);
 }
 
+.site-footer a {
+   transition: color 100ms linear;
+}
+
 .site-footer .inner {
    display: flex;
    flex-direction: column;
@@ -23,4 +27,9 @@
    .site-footer .inner {
       flex-direction: row;
    }
+}
+
+/* Hover State */
+.site-footer a:hover {
+   color: var(--primary);
 }

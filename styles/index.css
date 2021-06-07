@@ -23,3 +23,5 @@
 
 /** Animation */
 @import 'animation/card.css';
+@import 'animation/wobble.css';
+@import 'animation/rate.css';

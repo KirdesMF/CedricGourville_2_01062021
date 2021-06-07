@@ -11,10 +11,6 @@
    box-shadow: 0 0 15px hsla(0, 0%, 0%, 0.2);
 }
 
-.cards-grid .card:hover {
-   animation: card 100ms ease-in-out;
-}
-
 .cards-grid .card img {
    width: 100%;
    height: var(--size-card);
@@ -107,4 +103,14 @@
       grid-row: 3 / -1;
       grid-column: 4;
    }
+}
+
+/* Hover State */
+.cards-grid .card:hover {
+   animation: card 100ms ease-in-out;
+}
+
+.cards-grid .card:hover .rate > i {
+   animation: rate 400ms ease-in-out;
+   animation-delay: var(--delay);
 }

@@ -1,0 +1,14 @@
+@keyframes rate {
+   from {
+      transform: translateY(0px);
+   }
+   25% {
+      transform: translateY(2px);
+   }
+   75% {
+      transform: translateY(-2px);
+   }
+   to {
+      transform: translateY(0px);
+   }
+}

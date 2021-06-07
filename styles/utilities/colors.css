@@ -3,6 +3,9 @@
    --bg-darker: #f2f2f2;
    --primary: #0065fc;
    --primary-lighter: #deebff;
+
+   --selected: hsl(216, 100%, 23%);
+   --hovered: hsl(216, 50%, 50%);
 }
 
 /** background colors */
