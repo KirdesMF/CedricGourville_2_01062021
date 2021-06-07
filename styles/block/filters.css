@@ -30,9 +30,9 @@
 .filters .label > input[type='checkbox'],
 .filters .label > input {
    appearance: none;
-
    background-color: unset;
    border: none;
+
    position: absolute;
    width: 100%;
    height: 100%;
