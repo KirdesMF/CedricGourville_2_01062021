@@ -19,6 +19,10 @@
    padding-inline-start: 1rem;
 }
 
+.search .form > input::placeholder {
+   color: var(--text);
+}
+
 .search .form > .btn {
    padding-inline-end: 1rem;
    padding-inline-start: 1rem;
