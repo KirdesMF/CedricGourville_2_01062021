@@ -9,6 +9,8 @@
 
 body {
    overflow-x: hidden;
+   color: var(--text);
+   background-color: var(--bg);
 }
 
 a {

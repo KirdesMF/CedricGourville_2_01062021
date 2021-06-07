@@ -7,7 +7,19 @@
    --checked: hsl(177, 100%, 23%);
    --hovered: hsl(216, 50%, 50%);
 
-   --text: #000000;
+   --text: hsl(240, 2%, 9%);
+}
+
+:root[data-theme='dark'] {
+   --bg: hsl(240, 2%, 9%);
+   --bg-darker: hsl(0, 0%, 27%);
+   --primary: hsl(216, 100%, 49%);
+   --primary-lighter: hsl(216, 50%, 20%);
+
+   --checked: hsl(177, 100%, 23%);
+   --hovered: hsl(216, 50%, 50%);
+
+   --text: #ffffff;
 }
 
 /** background colors */
