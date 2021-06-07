@@ -36,6 +36,7 @@
    display: grid;
    grid-auto-flow: column;
    grid-template-columns: 1fr 1fr;
+   gap: var(--flow-gap);
 }
 
 .site-header .nav > a {
@@ -91,6 +92,7 @@
       display: grid;
       grid-template-columns: [logo]max-content [empty]2fr [nav]1fr [sign]min-content;
       grid-template-rows: var(--fix-row);
+      gap: var(--flow-gap);
    }
 
    .site-header .inner > * {
