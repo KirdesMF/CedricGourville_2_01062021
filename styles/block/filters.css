@@ -27,8 +27,10 @@
    position: relative;
 }
 
-.filters .label > input[type='checkbox'] {
-   appearance: unset;
+.filters .label > input[type='checkbox'],
+.filters .label > input {
+   appearance: none;
+
    background-color: unset;
    border: none;
    position: absolute;
