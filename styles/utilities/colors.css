@@ -8,6 +8,7 @@
    --hovered: hsl(216, 50%, 50%);
 
    --text: hsl(240, 2%, 9%);
+   --box-shadow: 0 0 15px hsla(200, 0%, 0%, 0.3);
 }
 
 :root[data-theme='dark'] {
@@ -20,6 +21,7 @@
    --hovered: hsl(216, 50%, 50%);
 
    --text: #ffffff;
+   --box-shadow: 0 0 0 5px hsla(200, 0%, 100%, 0.3);
 }
 
 /** background colors */
