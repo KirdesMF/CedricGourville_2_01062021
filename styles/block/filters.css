@@ -1,8 +1,16 @@
 .filters {
    display: flex;
+   flex-direction: column;
    flex-wrap: wrap;
    gap: var(--flow-gap, 1.5rem);
-   align-items: center;
+   align-items: flex-start;
+}
+
+@media screen and (min-width: 576px) {
+   .filters {
+      flex-direction: row;
+      align-items: center;
+   }
 }
 
 .filters .label {
