@@ -19,7 +19,7 @@
 /** logo */
 .site-header .logo {
    grid-column: logo;
-   align-self: center;
+   place-self: center start;
 
    padding-inline-start: var(--padding);
 }
