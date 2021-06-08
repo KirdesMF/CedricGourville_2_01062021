@@ -112,6 +112,10 @@
       top: 0;
       bottom: unset;
    }
+
+   .site-header .sign {
+      justify-self: center;
+   }
 }
 
 /* Hover State */

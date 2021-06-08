@@ -7,6 +7,16 @@
    --xl: 1200px;
 }
 
+html {
+   scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+   html {
+      scroll-behavior: auto;
+   }
+}
+
 body {
    overflow-x: hidden;
    color: var(--text);

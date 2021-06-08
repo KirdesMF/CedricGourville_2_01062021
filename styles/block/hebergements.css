@@ -1,5 +1,6 @@
 .hebergements {
    transition: background-color 1s ease-in;
+   scroll-margin-top: 6.5rem;
 }
 
 .hebergements .inner {
