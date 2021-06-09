@@ -6,7 +6,7 @@
 .hebergements .inner {
    display: flex;
    flex-direction: column-reverse;
-   gap: var(--flow-gap, 1.5rem);
+   gap: var(--gap-wrapper, 1.5rem);
 }
 
 .hebergements .main,
