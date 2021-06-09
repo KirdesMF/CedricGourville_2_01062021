@@ -1,7 +1,5 @@
 .wrapper {
-   --gap-wrapper: var(--gap-20);
-   --max-width: calc(1340px + var(--gap-wrapper));
-   max-width: var(--max-width, 100%);
+   max-width: 1440px;
    padding: 0 var(--gap-wrapper, 1.5rem);
    margin: 0 auto;
 }

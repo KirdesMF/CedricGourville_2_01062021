@@ -3,8 +3,8 @@
 =============================================*/
 
 .site-header {
-   --padding-block: var(--flow-gap);
-   --height-header: 8.4375rem;
+   --padding-block: var(--gap-15);
+   --gap-wrapper: 0;
    --border-size: 0.3125rem;
 
    position: sticky;
@@ -21,14 +21,13 @@
 @media screen and (min-width: 768px) {
    .site-header {
       --padding-block: 0;
-      --height-header: 6.25rem;
+      --gap-wrapper: var(--gap-35);
    }
 }
 
 /*=============================================
 =                   inner                     =
 =============================================*/
-
 .site-header__inner {
    height: var(--height-header);
 
@@ -44,44 +43,30 @@
  */
 @media screen and (min-width: 768px) {
    .site-header__inner {
-      display: grid;
       grid-template-columns: [logo]max-content [empty]2fr [nav]1fr [sign]min-content;
       grid-template-rows: 1fr;
-      gap: var(--gap-35);
+      gap: var(--gap-wrapper);
    }
 }
 
 /*=============================================
 =                    logo                     =
 =============================================*/
-
 .site-header__logo {
    grid-column: logo;
    grid-row: 1;
    place-self: center start;
 
-   /* padding-left: var(--padding-block); */
+   padding-left: var(--padding-block);
 }
 
 .site-header__logo img {
    object-fit: contain;
 }
 
-/**
- *
- * desktop
- *
- */
-@media screen and (min-width: 768px) {
-   .site-header__logo {
-      --padding-block: 0;
-   }
-}
-
 /*=============================================
 =                    nav                      =
 =============================================*/
-
 .site-header__nav {
    grid-row: 2;
    grid-column: 1 / -1;
@@ -89,13 +74,14 @@
    display: grid;
    grid-auto-flow: column;
    grid-template-columns: 1fr 1fr;
-   gap: var(--gap-30);
+   gap: var(--gap-15);
 }
 
 .site-header__nav > a {
+   position: relative;
+
    display: grid;
    place-items: center;
-   position: relative;
 }
 
 .site-header__nav > a:hover,
@@ -150,7 +136,7 @@
    align-self: center;
    justify-self: end;
 
-   padding-right: var(--padding);
+   padding-right: var(--padding-block);
    transition: transform 100ms ease-in-out;
 }
 
@@ -166,7 +152,6 @@
  */
 @media screen and (min-width: 768px) {
    .site-header__sign-in {
-      --padding: 0;
       justify-self: center;
    }
 }

@@ -31,7 +31,7 @@ body {
    text-rendering: optimizeSpeed;
    line-height: 1.5;
    font-variation-settings: var(--font-medium);
-   color: var(--color-text);
+   color: var(--color-black);
 }
 
 h1,

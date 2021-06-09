@@ -1,0 +1,82 @@
+0000000000000000000000000000000000000000 8e8f67961abd3c6e1a844aece0bf57dd39dd77a7 Cedric Gourville <cedgourville@gmail.com> 1622567951 +0200	commit (initial): 🎉 first commit
+8e8f67961abd3c6e1a844aece0bf57dd39dd77a7 8e8f67961abd3c6e1a844aece0bf57dd39dd77a7 Cedric Gourville <cedgourville@gmail.com> 1622567963 +0200	Branch: renamed refs/heads/master to refs/heads/main
+8e8f67961abd3c6e1a844aece0bf57dd39dd77a7 56430fe297ec834f7e5ed6f8a1fb12a3af05a54e Cedric Gourville <cedgourville@gmail.com> 1622568377 +0200	commit: 📝 update README
+56430fe297ec834f7e5ed6f8a1fb12a3af05a54e 885710ce36271012293b5308466ec05d00dc2f2b Cedric Gourville <cedgourville@gmail.com> 1622568652 +0200	commit: ✨ add index html
+885710ce36271012293b5308466ec05d00dc2f2b 00f1ae66929e1c3ec65be29b086f1cae5f6c3c55 Cedric Gourville <cedgourville@gmail.com> 1622569043 +0200	commit: ✨ add stylesheet
+00f1ae66929e1c3ec65be29b086f1cae5f6c3c55 c0d2115fd920f41cf6bb43b89c788d04d13222fb Cedric Gourville <cedgourville@gmail.com> 1622570715 +0200	commit: ✨ add variable font
+c0d2115fd920f41cf6bb43b89c788d04d13222fb e4fa875a8d86d5504e337a725730f4b01168e4bf Cedric Gourville <cedgourville@gmail.com> 1622571417 +0200	commit: ✨ add favicon as svg
+e4fa875a8d86d5504e337a725730f4b01168e4bf 4c43eab4773eede7c8eae1d02e91f67aed7fbcd7 Cedric Gourville <cedgourville@gmail.com> 1622572483 +0200	commit: 💄 reset css
+4c43eab4773eede7c8eae1d02e91f67aed7fbcd7 2d43b2413262a9c77f67d818c147219a6dc6cb6b Cedric Gourville <cedgourville@gmail.com> 1622576915 +0200	commit: ✨ add css utilty
+2d43b2413262a9c77f67d818c147219a6dc6cb6b d5c5274d2612da0091a568062360ff6dad1581b3 Cedric Gourville <cedgourville@gmail.com> 1622582019 +0200	commit: 💄 add mobile header
+d5c5274d2612da0091a568062360ff6dad1581b3 20d7cadc4ce5d1071f090a3e56aa5280ceb68c32 Cedric Gourville <cedgourville@gmail.com> 1622582506 +0200	commit: 🎨 update html semantic
+20d7cadc4ce5d1071f090a3e56aa5280ceb68c32 5d6363a5e6fd9e13ca68a25763195d8bda8cc4de Cedric Gourville <cedgourville@gmail.com> 1622583371 +0200	commit: 🐛 fix bug font gituhub pages
+5d6363a5e6fd9e13ca68a25763195d8bda8cc4de b283c3f97cfe655b4728252a72d24bc2d0912786 Cedric Gourville <cedgourville@gmail.com> 1622583533 +0200	commit: 🐛 fix src img github pages
+b283c3f97cfe655b4728252a72d24bc2d0912786 166085f0564f338f20ef5088ebe6e59185dcea57 Cedric Gourville <cedgourville@gmail.com> 1622583588 +0200	commit: 🐛 fix src img github pages
+166085f0564f338f20ef5088ebe6e59185dcea57 7f44d419a78db370bd294ef21dbc2ae6d0059fa4 Cedric Gourville <cedgourville@gmail.com> 1622583721 +0200	commit: 🐛 fix src img github pages
+7f44d419a78db370bd294ef21dbc2ae6d0059fa4 79decf1657f2a664088edf2244371b626ad9c19a Cedric Gourville <cedgourville@gmail.com> 1622591170 +0200	commit: 📱 responsive header
+79decf1657f2a664088edf2244371b626ad9c19a 7729cdb52a34f0ea2b824883e15ae75b8e71f10b Cedric Gourville <cedgourville@gmail.com> 1622592636 +0200	commit: 🎨 clean utilities
+7729cdb52a34f0ea2b824883e15ae75b8e71f10b 44b365a7f3b4073a58c552715b20c3dae35763b8 Cedric Gourville <cedgourville@gmail.com> 1622594849 +0200	commit: 💄 section search UI
+44b365a7f3b4073a58c552715b20c3dae35763b8 c877f8ccb9531aeef6c1c6ba5cb010aa70bef898 Cedric Gourville <cedgourville@gmail.com> 1622595410 +0200	commit: 🐛 fix css files issue underscore
+c877f8ccb9531aeef6c1c6ba5cb010aa70bef898 7ec5aa6cb6d5d44f82798218abdfb23b49f897c4 Cedric Gourville <cedgourville@gmail.com> 1622597391 +0200	commit: ➕ fontawesome
+7ec5aa6cb6d5d44f82798218abdfb23b49f897c4 fb063b9d472bc16504f5e1db47d505ce71281b11 Cedric Gourville <cedgourville@gmail.com> 1622636430 +0200	commit: 💄 add input search mobile
+fb063b9d472bc16504f5e1db47d505ce71281b11 06a8d28336e240765d8cd263e650bf3b74211031 Cedric Gourville <cedgourville@gmail.com> 1622639651 +0200	commit: 📱 search input desktop
+06a8d28336e240765d8cd263e650bf3b74211031 b7a53cdb363325705c4ad167d529be9b59197274 Cedric Gourville <cedgourville@gmail.com> 1622646441 +0200	commit: 📱 filters desktop / mobile
+b7a53cdb363325705c4ad167d529be9b59197274 a2c415d08c9d484361aaac4e4c4285deaf1fe2be Cedric Gourville <cedgourville@gmail.com> 1622648662 +0200	commit: 💄 add hebergment section desktop
+a2c415d08c9d484361aaac4e4c4285deaf1fe2be ac58678f6b160705e5c65cee590866c60969355b Cedric Gourville <cedgourville@gmail.com> 1622660536 +0200	commit: 💄 update some UI
+ac58678f6b160705e5c65cee590866c60969355b acc50e39c4a1ca8de5813512b1dabdb5e5348e39 Cedric Gourville <cedgourville@gmail.com> 1622664880 +0200	commit: ♿ fix w3c errors
+acc50e39c4a1ca8de5813512b1dabdb5e5348e39 c3d347bf874ce5f971679fd0f675e0b3f7732710 Cedric Gourville <cedgourville@gmail.com> 1622664965 +0200	commit: 🍱 add cards images
+c3d347bf874ce5f971679fd0f675e0b3f7732710 691e766c8ef3eda447eb57637e4effc2b88c9acd Cedric Gourville <cedgourville@gmail.com> 1622666774 +0200	commit: 💄 update cards
+691e766c8ef3eda447eb57637e4effc2b88c9acd 6dda3d5d38c64065149cb6974a680fb207f2cb80 Cedric Gourville <cedgourville@gmail.com> 1622836853 +0200	rebase finished: refs/heads/main onto 6dda3d5d38c64065149cb6974a680fb207f2cb80
+6dda3d5d38c64065149cb6974a680fb207f2cb80 f37c9e1c7f62b518d0bbc6ae5640720a0394d58d Cedric Gourville <cedgourville@gmail.com> 1622837169 +0200	commit: 🐛 fix font github pages
+f37c9e1c7f62b518d0bbc6ae5640720a0394d58d 1fd1e6bc5ee708e6f71a84bbacd488f8bcca6f57 Cedric Gourville <cedgourville@gmail.com> 1622839341 +0200	commit: 💄 update css background color utility
+1fd1e6bc5ee708e6f71a84bbacd488f8bcca6f57 e291865c21ed58665be0caf905450c952cf9371c Cedric Gourville <cedgourville@gmail.com> 1622841657 +0200	commit: 💄 clean up
+e291865c21ed58665be0caf905450c952cf9371c b080c91ecb43c569299aa54d0d0bfee38e7c6687 Cedric Gourville <cedgourville@gmail.com> 1622841701 +0200	commit: 🎨 remove composition folder
+b080c91ecb43c569299aa54d0d0bfee38e7c6687 3e502a9f3682d4320c6d94baaeaa76dc0539c6ff Cedric Gourville <cedgourville@gmail.com> 1622842589 +0200	commit: ✨ add grid-flow utility
+3e502a9f3682d4320c6d94baaeaa76dc0539c6ff db9926770313721b3842114f590c241b1cbd3b6f Cedric Gourville <cedgourville@gmail.com> 1622844416 +0200	commit: 🎨 improve layout utilities
+db9926770313721b3842114f590c241b1cbd3b6f 93938b70b1b819bce3810b566cf8fab68624ff5b Cedric Gourville <cedgourville@gmail.com> 1622844823 +0200	commit: create layout utility
+93938b70b1b819bce3810b566cf8fab68624ff5b 449ceca51b8ef470210dd751a76e680d8baa1939 Cedric Gourville <cedgourville@gmail.com> 1622846539 +0200	commit: ✨ add fluid typo utility
+449ceca51b8ef470210dd751a76e680d8baa1939 6b9cbbee73349ee5cbca5f5e62e45bb2a8b6822d Cedric Gourville <cedgourville@gmail.com> 1622848338 +0200	commit: ui fixes
+6b9cbbee73349ee5cbca5f5e62e45bb2a8b6822d e7e4c8cf28d3803b79f6c5bc40d48c4c2023db3a Cedric Gourville <cedgourville@gmail.com> 1622851888 +0200	commit: 💄 add-update filters block + anchor cards
+e7e4c8cf28d3803b79f6c5bc40d48c4c2023db3a 8c33168c478e67906f1e5ba66551dd43775668a7 Cedric Gourville <cedgourville@gmail.com> 1622852464 +0200	commit: change article to anchor tag due to screen reader
+8c33168c478e67906f1e5ba66551dd43775668a7 2cd0ff123e815d35701750b0d15ab99e232c19f4 Cedric Gourville <cedgourville@gmail.com> 1622859074 +0200	commit: 💄 clean UI
+2cd0ff123e815d35701750b0d15ab99e232c19f4 5d583b0affe39e06f4b10b6d89d6d652534a8840 Cedric Gourville <cedgourville@gmail.com> 1622910621 +0200	commit: 🎨 css files
+5d583b0affe39e06f4b10b6d89d6d652534a8840 5ce5f0d3bc4acc66c96cd73a3d77df9c3759bcb2 Cedric Gourville <cedgourville@gmail.com> 1622974904 +0200	commit: clean css
+5ce5f0d3bc4acc66c96cd73a3d77df9c3759bcb2 0b32e99f28b2653bd1a84244a8fb1530fddc4daf Cedric Gourville <cedgourville@gmail.com> 1622976169 +0200	commit: 🍱 change img size
+0b32e99f28b2653bd1a84244a8fb1530fddc4daf aab872b12ab538286b851a9b9bb4d130ac662301 Cedric Gourville <cedgourville@gmail.com> 1622980247 +0200	commit: 📱 handle responsive
+aab872b12ab538286b851a9b9bb4d130ac662301 7a8f7db71bb5d284ecc8d6030a16e05aafcf1177 Cedric Gourville <cedgourville@gmail.com> 1623011814 +0200	commit: fix ui
+7a8f7db71bb5d284ecc8d6030a16e05aafcf1177 00d506e6f6f34373e43423eaed55063a71ad1f6e Cedric Gourville <cedgourville@gmail.com> 1623016959 +0200	commit: 💄 last grid card
+00d506e6f6f34373e43423eaed55063a71ad1f6e 61b5177fc99e681f5f4e3cdc9ca7547bcda66eae Cedric Gourville <cedgourville@gmail.com> 1623022755 +0200	commit: 📱 responsive main
+61b5177fc99e681f5f4e3cdc9ca7547bcda66eae 6106e3bcacc8fed7ab7b099312ebfb5e1bf03f0d Cedric Gourville <cedgourville@gmail.com> 1623023909 +0200	commit: 💄 update last grid container
+6106e3bcacc8fed7ab7b099312ebfb5e1bf03f0d 77f00c0d67bf9a94ed1757ca38a897fc317d6474 Cedric Gourville <cedgourville@gmail.com> 1623025594 +0200	commit: ✨ start to add interactions
+77f00c0d67bf9a94ed1757ca38a897fc317d6474 c4fc0509d6a741e41b521d0c3f1b92cfd3aeb377 Cedric Gourville <cedgourville@gmail.com> 1623026468 +0200	commit: ✨ add rating css
+c4fc0509d6a741e41b521d0c3f1b92cfd3aeb377 f875dccfb0efa43c2c91da3de280c51877e66a2f Cedric Gourville <cedgourville@gmail.com> 1623026719 +0200	commit: 📱 footer mobil col
+f875dccfb0efa43c2c91da3de280c51877e66a2f 90b81750bd6952ce2bfb9648e48a8cdaa33adfc0 Cedric Gourville <cedgourville@gmail.com> 1623027042 +0200	commit: update ui input
+90b81750bd6952ce2bfb9648e48a8cdaa33adfc0 88f36e7e3be85ad36306f504fb7ab7a3679db6cc Cedric Gourville <cedgourville@gmail.com> 1623029453 +0200	commit: 💫 add animations interaction card
+88f36e7e3be85ad36306f504fb7ab7a3679db6cc 75fe9051dd8a6fc3af94b5658b6caeb189d6a7ae Cedric Gourville <cedgourville@gmail.com> 1623030038 +0200	commit: 💫 add animation checked input
+75fe9051dd8a6fc3af94b5658b6caeb189d6a7ae 6983fc9db4d82bc1386af608de323235c7214457 Cedric Gourville <cedgourville@gmail.com> 1623030613 +0200	commit: 💫 add hover btn search
+6983fc9db4d82bc1386af608de323235c7214457 84912dd722e59523b796b041911c8ed70c334450 Cedric Gourville <cedgourville@gmail.com> 1623030895 +0200	commit: 🍱 add favicon
+84912dd722e59523b796b041911c8ed70c334450 758e20c7b280ca1907c4f75fdbd32abc26218807 Cedric Gourville <cedgourville@gmail.com> 1623031253 +0200	commit: ♿ improve filter accessibility
+758e20c7b280ca1907c4f75fdbd32abc26218807 d65d9a85e0b39ff4a177bf0decae0fd8ce604b0b Cedric Gourville <cedgourville@gmail.com> 1623031710 +0200	commit: 📝 udpate README
+d65d9a85e0b39ff4a177bf0decae0fd8ce604b0b 05e2e1b287f974607c161b7fc9fe65bef4cca263 Cedric Gourville <cedgourville@gmail.com> 1623032321 +0200	commit: ♿ transition on focus
+05e2e1b287f974607c161b7fc9fe65bef4cca263 b114f986435e1386f83c18aa7b1ffbf3f1af3c14 Cedric Gourville <cedgourville@gmail.com> 1623034763 +0200	commit: ✨ dark mode
+b114f986435e1386f83c18aa7b1ffbf3f1af3c14 57fc58f4e669c17f9c44086dbda20c7afc62c9cb Cedric Gourville <cedgourville@gmail.com> 1623035082 +0200	commit: 📱 filters mobile
+57fc58f4e669c17f9c44086dbda20c7afc62c9cb 930fe68a1da298916932a3ecfc86e16425aedeec Cedric Gourville <cedgourville@gmail.com> 1623035264 +0200	commit: 🐛 fix checkbox iphone
+930fe68a1da298916932a3ecfc86e16425aedeec 8659d3fe4b04b92fcfd251d51675487b66847466 Cedric Gourville <cedgourville@gmail.com> 1623035549 +0200	commit: 💄 add transition color dark mode
+8659d3fe4b04b92fcfd251d51675487b66847466 e7a7516e1823811d3e985b6c82aa0619ac3ea9ad Cedric Gourville <cedgourville@gmail.com> 1623035708 +0200	commit: fix outline focus btn
+e7a7516e1823811d3e985b6c82aa0619ac3ea9ad 94fef35ee4c738626066f228c337a03f132acfd5 Cedric Gourville <cedgourville@gmail.com> 1623036197 +0200	commit: shadow dark mode
+94fef35ee4c738626066f228c337a03f132acfd5 a486e711d34fa3c412139b2c64797c011c368be6 Cedric Gourville <cedgourville@gmail.com> 1623062786 +0200	commit: 💄 update global ui
+a486e711d34fa3c412139b2c64797c011c368be6 028b54af0540a241f0372272d968ec3a9aa887e5 Cedric Gourville <cedgourville@gmail.com> 1623063159 +0200	commit: 🐛 fix w3c error
+028b54af0540a241f0372272d968ec3a9aa887e5 28cde576524381ced3ae3dcc54770ddfaae4dc6d Cedric Gourville <cedgourville@gmail.com> 1623068180 +0200	commit: change color placeholder
+28cde576524381ced3ae3dcc54770ddfaae4dc6d 0120ec0fd937dc2ed650553826812968dfc4cc4a Cedric Gourville <cedgourville@gmail.com> 1623072561 +0200	commit: fix some ui bugs
+0120ec0fd937dc2ed650553826812968dfc4cc4a 47aff6c1d3bdb64c17c89d14920194e30e41bf68 Cedric Gourville <cedgourville@gmail.com> 1623075116 +0200	commit: fix issue safari
+47aff6c1d3bdb64c17c89d14920194e30e41bf68 1d57974024b57d1188be34730d3ae9b0962765af Cedric Gourville <cedgourville@gmail.com> 1623083318 +0200	commit: 💄 fix gap
+1d57974024b57d1188be34730d3ae9b0962765af 35c908777f08b2e20b01c2cef99d6907481abe19 Cedric Gourville <cedgourville@gmail.com> 1623084273 +0200	commit: 📱 fix input search
+35c908777f08b2e20b01c2cef99d6907481abe19 f5302f7a53e3b63f1ce590d7234184e750fa49ae Cedric Gourville <cedgourville@gmail.com> 1623088889 +0200	commit: fix responsive issue
+f5302f7a53e3b63f1ce590d7234184e750fa49ae 426f191623d90e6f90454913ba711eeb0a7be6f7 Cedric Gourville <cedgourville@gmail.com> 1623090005 +0200	commit: 🐛 remove logical properties for safari support
+426f191623d90e6f90454913ba711eeb0a7be6f7 8258edcb5efe4abcda9c75381e2a25834365d583 Cedric Gourville <cedgourville@gmail.com> 1623091748 +0200	commit: add opacity to input checkbox
+8258edcb5efe4abcda9c75381e2a25834365d583 3085fa3301dc9a215759190963593f0946dbf832 Cedric Gourville <cedgourville@gmail.com> 1623092083 +0200	commit: 💄 update style header
+3085fa3301dc9a215759190963593f0946dbf832 6fe51ad4f1a0315a4ec07488cf21b33919807bc9 Cedric Gourville <cedgourville@gmail.com> 1623092298 +0200	commit: 💄 update style header
+6fe51ad4f1a0315a4ec07488cf21b33919807bc9 ab6ad520d148f564689f97efb3cc21aa46247e45 Cedric Gourville <cedgourville@gmail.com> 1623092395 +0200	commit: 🐛 focus filter
+ab6ad520d148f564689f97efb3cc21aa46247e45 a4037f5565e8022985077b3d1ea13f2434cbe149 Cedric Gourville <cedgourville@gmail.com> 1623092648 +0200	commit: 💄 fix ipad view header
+a4037f5565e8022985077b3d1ea13f2434cbe149 5b00d0d75adbec304848b38699130d2d0d3a8f48 Cedric Gourville <cedgourville@gmail.com> 1623092869 +0200	commit: ✏ fix typo
+5b00d0d75adbec304848b38699130d2d0d3a8f48 8edacfddb8aa129d6ffbdc76cce60ab67bb46ab9 Cedric Gourville <cedgourville@gmail.com> 1623191970 +0200	commit: update ui

@@ -1,6 +1,6 @@
 .hebergements {
    transition: background-color 1s ease-in;
-   scroll-margin-top: 6.5rem;
+   scroll-margin-top: var(--height-header);
 }
 
 .hebergements .inner {
@@ -12,13 +12,13 @@
 .hebergements .main,
 .hebergements .famous {
    flex: 1;
-   padding: var(--flow-gap, 1.5rem) 0;
 
    display: grid;
    grid-template-rows: min-content 1fr;
    gap: var(--flow-gap, 1.5rem);
 
    color: var(--text);
+   padding: var(--gap-wrapper, 1.5rem) 0;
 }
 
 .hebergements .main .btn {
@@ -38,7 +38,8 @@
 @media screen and (min-width: 768px) {
    .hebergements .main,
    .hebergements .famous {
-      padding: var(--flow-gap, 1.5rem);
+      padding: var(--gap-wrapper, 1.5rem);
+      background-color: var(--color-grey);
    }
 }
 
