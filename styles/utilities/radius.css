@@ -1,5 +1,10 @@
 :root {
    --radius: 20px;
+
+   --radius-50: 3.125rem;
+   --radius-20: 1.25rem;
+   --radius-25: 1.5625rem;
+   --radius-full: 100%;
 }
 
 .radius {

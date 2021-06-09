@@ -1,19 +1,37 @@
 :root {
-   --bold: 'wght' 750;
-   --semi-bold: 'wght' 650;
-   --regular: 'wgth' 500;
+   --font-black: 'wght' 850;
+   --font-bold: 'wght' 750;
+   --font-medium: 'wght' 450;
+
+   --font-14: 0.875rem;
+   --font-16: 1rem;
+   --font-18: 1.125rem;
+   --font-20: 1.25rem;
+   --font-22: 1.375rem;
 }
 
+/**
+ *
+ * Set font
+ *
+ */
 @font-face {
    font-family: 'Railway';
    src: url('../../assets/fonts/Raleway-VariableFont_wght.ttf')
       format('truetype-variations');
 }
 
+/**
+ *
+ * Global
+ *
+ */
 body {
    font-family: 'Railway';
    text-rendering: optimizeSpeed;
    line-height: 1.5;
+   font-variation-settings: var(--font-medium);
+   color: var(--color-text);
 }
 
 h1,
@@ -23,36 +41,25 @@ h3 {
 }
 
 h1 {
-   font-variation-settings: var(--bold);
-   font-size: 1.6875rem;
+   font-variation-settings: var(--font-bold);
+   font-size: var(--font-20);
 }
 
 h2 {
-   font-variation-settings: var(--semi-bold);
-   font-size: 1.125rem;
+   font-variation-settings: var(--font-bold);
+   font-size: var(--font-18);
 }
 
 h3 {
-   font-variation-settings: var(--semi-bold);
-   font-size: 0.825rem;
+   font-variation-settings: var(--font-bold);
+   font-size: var(--font-16);
 }
 
-.f-bold {
-   font-variation-settings: var(--bold);
+h4 {
+   font-variation-settings: var(--font-bold);
+   font-size: var(--font-14);
 }
 
-.f-semi-bold {
-   font-variation-settings: var(--semi-bold);
-}
-
-.f-small {
-   font-size: 0.75rem;
-}
-
-.f-fluid {
-   font-size: clamp(0.1rem, 0.5rem + 1vw, 1rem);
-}
-
-.f-small-fluid {
-   font-size: clamp(0.1rem, 0.35rem + 1vw, 0.75rem);
-}
+/*=============================================
+=            utilities                        =
+=============================================*/

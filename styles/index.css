@@ -6,6 +6,7 @@
 /** Utilities */
 @import 'utilities/fonts.css';
 @import 'utilities/colors.css';
+@import 'utilities/gap.css';
 @import 'utilities/grid-flow.css';
 @import 'utilities/flow.css';
 @import 'utilities/wrapper.css';

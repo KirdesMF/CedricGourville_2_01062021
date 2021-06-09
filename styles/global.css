@@ -19,8 +19,7 @@ html {
 
 body {
    overflow-x: hidden;
-   color: var(--text);
-   background-color: var(--bg);
+   background-color: var(--color-white);
    transition: color 500ms ease, background-color 500ms ease;
 }
 
