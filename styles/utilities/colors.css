@@ -1,73 +1,108 @@
+/*=============================================
+=                light                        =
+=============================================*/
 :root {
-   --bg: #ffffff;
-   --bg-darker: #f2f2f2;
-   --primary: #0065fc;
-   --primary-lighter: #deebff;
-
-   --checked: hsl(177, 100%, 23%);
-   --hovered: hsl(216, 50%, 50%);
-
-   --text: hsl(240, 2%, 20%);
-   --box-shadow: 0 0 15px hsla(200, 0%, 0%, 0.3);
+   --color-white: hsl(0, 0%, 100%);
+   --color-grey: hsl(0, 0%, 95%);
+   --color-black: hsl(216, 10%, 25%);
+   --color-primary: hsl(216, 100%, 49%);
+   --color-primary-lighter: hsl(216, 100%, 94%);
+   --color-primary-darker: hsl(216, 100%, 30%);
+   --color-checked: hsl(104, 75%, 78%);
+   --color-error: hsl(10, 89%, 75%);
+   --color-shadow: hsla(216, 10%, 25%, 30%);
 }
 
+/*=============================================
+=                   dark                      =
+=============================================*/
 :root[data-theme='dark'] {
-   --bg: hsl(240, 2%, 20%);
-   --bg-darker: hsl(0, 0%, 27%);
-   --primary: hsl(216, 100%, 49%);
-   --primary-lighter: hsl(216, 50%, 20%);
-
-   --checked: hsl(177, 100%, 23%);
-   --hovered: hsl(216, 50%, 50%);
-
-   --text: #ffffff;
-   --box-shadow: 0 0 0 5px hsla(200, 0%, 100%, 0.3);
+   --color-white: hsl(0, 0%, 100%);
+   --color-grey: hsl(0, 0%, 95%);
+   --color-black: hsl(216, 10%, 25%);
+   --color-primary: hsl(216, 100%, 49%);
+   --color-primary-lighter: hsl(216, 100%, 94%);
+   --color-primary-darker: hsl(216, 100%, 30%);
+   --color-checked: hsl(104, 75%, 78%);
+   --color-error: hsl(10, 89%, 75%);
+   --color-shadow: hsla(216, 10%, 25%, 30%);
 }
 
-/** background colors */
-.bg {
-   background-color: var(--bg);
+/*=============================================
+=            background-color                 =
+=============================================*/
+
+.bg-white {
+   background-color: var(--color-white);
 }
 
-.bg-darker {
-   background-color: var(--bg-darker);
+.bg-grey {
+   background-color: var(--color-grey);
+}
+
+.bg-black {
+   background-color: var(--color-black);
 }
 
 .bg-primary {
-   background-color: var(--primary);
+   background-color: var(--color-primary);
 }
 
 .bg-primary-lighter {
-   background-color: var(--primary-lighter);
+   background-color: var(--color-primary-lighter);
 }
 
-.bg-unset {
-   background-color: unset;
+.bg-primary-darker {
+   background-color: var(--color-primary-darker);
 }
 
-@media screen and (min-width: 768px) {
-   .md\:bg-unset {
-      background-color: unset;
-   }
-
-   .md\:bg-darker {
-      background-color: var(--bg-darker);
-   }
+.bg-checked {
+   background-color: var(--color-checked);
 }
 
-/** color */
-.color-bg {
-   color: var(--bg);
+.bg-error {
+   background-color: var(--color-error);
 }
 
-.color-bg-darker {
-   color: var(--bg-darker);
+.bg-shadow {
+   background-color: var(--color-shadow);
+}
+
+/*=============================================
+=                 color                       =
+=============================================*/
+.color-white {
+   color: var(--color-white);
+}
+
+.color-grey {
+   color: var(--color-grey);
+}
+
+.color-black {
+   color: var(--color-black);
 }
 
 .color-primary {
-   color: var(--primary);
+   color: var(--color-primary);
 }
 
 .color-primary-lighter {
-   color: var(--primary-lighter);
+   color: var(--color-primary-lighter);
+}
+
+.color-primary-darker {
+   color: var(--color-primary-darker);
+}
+
+.color-checked {
+   color: var(--color-checked);
+}
+
+.color-error {
+   color: var(--color-error);
+}
+
+.color-shadow {
+   color: var(--color-shadow);
 }
