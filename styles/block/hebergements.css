@@ -1,6 +1,5 @@
 .hebergements {
    transition: background-color 1s ease-in;
-   scroll-margin-top: var(--height-header);
 }
 
 .hebergements .inner {
@@ -14,7 +13,11 @@
    flex: 1;
 
    color: var(--text);
-   padding: var(--gap-wrapper, 1.5rem) 0;
+   padding: var(--gap-flow) var(--gap-wrapper);
+}
+
+.hebergements .famous {
+   background-color: var(--color-grey);
 }
 
 .hebergements .main .btn {
@@ -34,7 +37,6 @@
 @media screen and (min-width: 768px) {
    .hebergements .main,
    .hebergements .famous {
-      padding: var(--gap-wrapper, 1.5rem);
       background-color: var(--color-grey);
    }
 }

@@ -17,6 +17,7 @@
 @import 'utilities/panel.css';
 @import 'utilities/wrapper.css';
 @import 'utilities/full-padding.css';
+@import 'utilities/scroll-margin.css';
 
 /** Block */
 @import 'block/site-header.css';
