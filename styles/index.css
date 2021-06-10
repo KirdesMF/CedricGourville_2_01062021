@@ -12,6 +12,7 @@
 
 /** Utilities */
 @import 'utilities/colors.css';
+@import 'utilities/fonts.css';
 @import 'utilities/radius.css';
 @import 'utilities/center.css';
 @import 'utilities/panel.css';
