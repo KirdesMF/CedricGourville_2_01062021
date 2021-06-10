@@ -1,5 +1,0 @@
-.grid-flow {
-   display: grid;
-   gap: var(--gap-35, 1.5rem);
-   padding: var(--gap-35) 0;
-}

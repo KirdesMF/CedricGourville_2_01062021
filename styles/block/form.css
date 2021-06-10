@@ -1,0 +1,28 @@
+.form {
+   display: grid;
+   grid-template-columns: [logo]3rem [input]1fr [btn]min-content;
+   grid-template-rows: 3rem;
+}
+
+.form__logo {
+   grid-column: logo / 2;
+   grid-row: 1;
+}
+
+.form__logo::placeholder {
+   color: var(--color-black);
+}
+
+.form__input {
+   grid-column: input / -1;
+   grid-row: 1;
+}
+
+.form__btn {
+   grid-column: btn / -1;
+   grid-row: 1;
+   padding: 0 1rem 0 1rem;
+
+   border: none;
+   border-radius: var(--radius-10);
+}

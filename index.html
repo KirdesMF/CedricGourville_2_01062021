@@ -23,7 +23,7 @@
 
         <!-- site menu -->
         <nav class="[ site-header__nav ]" aria-label="Site menu">
-          <a class="active" href="#section-hebergements">
+          <a href="#section-hebergements">
             Hébergements
           </a>
           <a href="#section-activites">
@@ -38,24 +38,24 @@
   </header>
 
   <!-- Main -->
-  <main class="[ ]">
+  <main>
     <!-- Search -->
-    <section id="section-search" class="[ search ]">
+    <section class="[ search ][ panel ]" id="section-search">
       <div class="[ wrapper ]">
-        <div class="[ inner ][ grid-flow ]">
+        <div class="[ search__inner ][ grid-flow ]">
 
-          <div class="[ heading ]">
+          <div class="[ search__heading ]">
             <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
             <p>En plein centre ville ou en pleine nature</p>
           </div>
 
           <!-- form -->
-          <form action="#" class="[ form ]">
+          <form action="#" class="[ search__form form ]">
             <span class="[ logo ][ bg-darker ]">
               <i class="fas fa-map-marker-alt"></i>
             </span>
-            <input type="search" name="search" id="search" class="[ f-bold bg ]" placeholder="Marseille, France" />
-            <button class="[ btn ][ bg-primary color-bg f-semi-bold ]" type="submit">
+            <input class="[ input ]" type="search" name="search" id="search" placeholder="Marseille, France" />
+            <button class="[ btn ]" type="submit">
               <span class="[ content ]">Rechercher</span>
               <span class="[ icon ]">
                 <i class="fas fa-search"></i>
@@ -64,9 +64,8 @@
           </form>
 
           <!-- filters -->
-          <div class="[ filters ][ f-semi-bold ]">
+          <div class="[ search__filters filters ]">
             <h2>Filtres</h2>
-
 
             <label class="[ label ]">
               <input type="checkbox" name="name" id="name">
@@ -116,7 +115,7 @@
     </section>
 
     <!-- Hébergements -->
-    <section id="section-hebergements" class="[ hebergements ][  ]">
+    <section id="section-hebergements" class="[ hebergements ]">
       <div class="[ wrapper ]">
         <div class="[ inner ]">
           <!-- main hebergement -->
@@ -287,7 +286,7 @@
     </section>
 
     <!-- Activités -->
-    <section id="section-activites" class="[ activites ]">
+    <section id="section-activites" class="[ activites ][ panel ]">
       <div class="wrapper">
         <div class="[ inner ][ grid-flow ]">
           <!-- activités -->
@@ -333,13 +332,13 @@
   </main>
 
   <!-- Footer -->
-  <footer class="[ site-footer ][ bg-grey ]">
+  <footer class="[ site-footer ][ panel ][ bg-grey ]">
     <div class="wrapper">
       <div class="inner">
         <!-- a propos -->
         <nav aria-labelledby="A-propos">
           <h3 id="A-propos">A propos</h3>
-          <ul class="[ grid-flow ][  ]">
+          <ul class="[ grid-flow grid-gap-20 ][  ]">
             <li>
               <a href="#">Fonctionnement du site</a>
             </li>
@@ -355,7 +354,7 @@
         <!-- hébergements -->
         <nav aria-labelledby="Nos-hébergements">
           <h3 id="Nos-hébergements">Nos hébergements</h3>
-          <ul class="[ grid-flow ][  ]">
+          <ul class="[ grid-flow grid-gap-20 ][  ]">
             <li>
               <a href="#">Charte qualité</a>
             </li>
@@ -368,7 +367,7 @@
         <!-- assistance -->
         <nav aria-labelledby="Assistance">
           <h3 id="Assistance">Assistance</h3>
-          <ul class="[ grid-flow ][  ]">
+          <ul class="[ grid-flow grid-gap-20 ][  ]">
             <li>
               <a href="">Centre d'aide</a>
             </li>

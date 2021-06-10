@@ -1,0 +1,8 @@
+.grid-flow {
+   display: grid;
+   gap: var(--grid-gap, 1.875rem);
+}
+
+.grid-gap-20 {
+   --grid-gap: 1.25rem;
+}
