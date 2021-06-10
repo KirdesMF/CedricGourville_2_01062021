@@ -12,6 +12,8 @@
    display: grid;
    grid-template-columns: min-content min-content;
    grid-template-rows: var(--size);
+
+   font-variation-settings: var(--font-bold);
 }
 
 .filters__input {

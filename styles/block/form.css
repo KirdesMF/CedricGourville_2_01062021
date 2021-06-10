@@ -18,10 +18,12 @@
 
    border-radius: var(--radius-10) 0 0 var(--radius-10);
    background-color: var(--color-grey);
+   color: var(--color-black);
 }
 
-.form__logo::placeholder {
+.form__input::placeholder {
    color: var(--color-black);
+   font-variation-settings: var(--font-bold);
 }
 
 .form__input {
@@ -42,6 +44,7 @@
    border-radius: var(--radius-10);
    background-color: var(--color-primary);
    color: var(--color-white);
+   font-variation-settings: var(--font-bold);
 }
 
 .form__btn:hover {

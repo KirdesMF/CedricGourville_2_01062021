@@ -8,6 +8,23 @@
    font-size: var(--font-16);
 }
 
+.bold {
+   font-variation-settings: var(--font-bold);
+}
+
+.medium {
+   font-variation-settings: var(--font-medium);
+}
+
 .medium-fluid {
    font-variation-settings: var(--font-medium);
+   font-size: clamp(0.1rem, 0.45rem + 1vw, 1rem);
+}
+
+.f-fluid {
+   font-size: clamp(0.1rem, 0.5rem + 1vw, 1rem);
+}
+
+.f-small-fluid {
+   font-size: clamp(0.1rem, 0.35rem + 1vw, 0.75rem);
 }
