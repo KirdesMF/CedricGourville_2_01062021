@@ -1,56 +1,51 @@
-.hebergements {
-   transition: background-color 1s ease-in;
-}
-
-.hebergements .inner {
+.hebergements__inner {
    display: flex;
    flex-direction: column-reverse;
    gap: var(--gap-wrapper, 1.5rem);
 }
 
-.hebergements .main,
-.hebergements .famous {
+.hebergements__main,
+.hebergements__famous {
    flex: 1;
-
-   color: var(--text);
    padding: var(--gap-flow) var(--gap-wrapper);
 }
 
-.hebergements .famous {
-   background-color: var(--color-grey);
-}
-
-.hebergements .main .btn {
+.hebergements__main button {
    place-self: center start;
    transition: color 200ms linear;
 }
 
-.hebergements .main .btn:hover {
-   color: var(--primary);
+.hebergements__main button:hover {
+   color: var(--color-primary);
+   cursor: pointer;
 }
 
-.hebergements .famous .title {
+.hebergements__famous {
+   background-color: var(--color-grey);
+}
+
+.hebergements__famous h2 {
    display: flex;
    justify-content: space-between;
 }
 
 @media screen and (min-width: 768px) {
-   .hebergements .main,
-   .hebergements .famous {
+   .hebergements__main,
+   .hebergements__famous {
       background-color: var(--color-grey);
    }
 }
 
 @media screen and (min-width: 1200px) {
-   .hebergements .inner {
+   .hebergements__inner {
       flex-direction: row;
    }
 
-   .hebergements .main {
+   .hebergements__main {
       flex: 1;
    }
 
-   .hebergements .famous {
+   .hebergements__famous {
       flex: 0.5;
    }
 }
