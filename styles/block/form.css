@@ -40,6 +40,8 @@
 
    border: none;
    border-radius: var(--radius-10);
+   background-color: var(--color-primary);
+   color: var(--color-white);
 }
 
 .form__btn:hover {
