@@ -1,34 +1,4 @@
 /*=============================================
-=                light                        =
-=============================================*/
-:root {
-   --color-white: hsl(0, 0%, 100%);
-   --color-grey: hsl(0, 0%, 95%);
-   --color-black: hsl(216, 10%, 25%);
-   --color-primary: hsl(216, 100%, 49%);
-   --color-primary-lighter: hsl(216, 100%, 94%);
-   --color-primary-darker: hsl(216, 100%, 30%);
-   --color-checked: hsl(104, 75%, 78%);
-   --color-error: hsl(10, 89%, 75%);
-   --color-shadow: hsla(216, 10%, 25%, 30%);
-}
-
-/*=============================================
-=                   dark                      =
-=============================================*/
-:root[data-theme='dark'] {
-   --color-white: hsl(0, 0%, 100%);
-   --color-grey: hsl(0, 0%, 95%);
-   --color-black: hsl(216, 10%, 25%);
-   --color-primary: hsl(216, 100%, 49%);
-   --color-primary-lighter: hsl(216, 100%, 94%);
-   --color-primary-darker: hsl(216, 100%, 30%);
-   --color-checked: hsl(104, 75%, 78%);
-   --color-error: hsl(10, 89%, 75%);
-   --color-shadow: hsla(216, 10%, 25%, 30%);
-}
-
-/*=============================================
 =            background-color                 =
 =============================================*/
 

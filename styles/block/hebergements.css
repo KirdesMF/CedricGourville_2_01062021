@@ -13,10 +13,6 @@
 .hebergements .famous {
    flex: 1;
 
-   display: grid;
-   grid-template-rows: min-content 1fr;
-   gap: var(--flow-gap, 1.5rem);
-
    color: var(--text);
    padding: var(--gap-wrapper, 1.5rem) 0;
 }

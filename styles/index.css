@@ -1,5 +1,9 @@
-/* Base */
+/** Base */
 @import 'base/reset.css';
+@import 'base/gap.css';
+@import 'base/fonts.css';
+@import 'base/colors.css';
+@import 'base/radius.css';
 @import 'base/global.css';
 
 /** Composition */
@@ -7,9 +11,7 @@
 @import 'composition/grid-flow.css';
 
 /** Utilities */
-@import 'utilities/fonts.css';
 @import 'utilities/colors.css';
-@import 'utilities/gap.css';
 @import 'utilities/panel.css';
 @import 'utilities/wrapper.css';
 @import 'utilities/radius.css';

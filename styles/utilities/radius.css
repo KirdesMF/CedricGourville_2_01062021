@@ -1,11 +1,3 @@
-:root {
-   --radius-10: 0.625rem;
-   --radius-20: 1.25rem;
-   --radius-25: 1.5625rem;
-   --radius-50: 3.125rem;
-   --radius-full: 100%;
-}
-
-.radius {
-   border-radius: var(--radius, 0.6rem);
+.radius-10 {
+   border-radius: var(--radius-10, 0.6rem);
 }

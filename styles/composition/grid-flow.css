@@ -1,8 +1,9 @@
 .grid-flow {
    display: grid;
-   gap: var(--grid-gap, 1.875rem);
+   gap: var(--gap-flow, 1.875rem);
+   grid-auto-rows: min-content;
 }
 
 .grid-gap-20 {
-   --grid-gap: 1.25rem;
+   --gap-flow: 1.25rem;
 }
