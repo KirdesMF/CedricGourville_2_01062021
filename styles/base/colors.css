@@ -17,13 +17,13 @@
 =                   dark                      =
 =============================================*/
 :root[data-theme='dark'] {
-   --color-white: hsl(0, 0%, 100%);
-   --color-grey: hsl(0, 0%, 95%);
-   --color-black: hsl(216, 10%, 25%);
-   --color-primary: hsl(216, 100%, 49%);
+   --color-white: hsl(216, 10%, 25%);
+   --color-grey: hsl(0, 0%, 35%);
+   --color-black: hsl(0, 0%, 100%);
+   --color-primary: hsl(216, 100%, 69%);
    --color-primary-lighter: hsl(216, 100%, 94%);
    --color-primary-darker: hsl(216, 100%, 30%);
-   --color-checked: hsl(104, 75%, 78%);
-   --color-error: hsl(10, 89%, 75%);
-   --color-shadow: hsla(216, 10%, 25%, 30%);
+   --color-checked: hsl(104, 85%, 78%);
+   --color-error: hsl(10, 99%, 75%);
+   --color-shadow: hsla(216, 10%, 95%, 30%);
 }
