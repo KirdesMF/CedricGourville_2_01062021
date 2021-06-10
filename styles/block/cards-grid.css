@@ -6,13 +6,12 @@
       auto-fit,
       minmax(calc(var(--size-card) * 2), 1fr)
    );
-   gap: var(--flow-gap, 1.5rem);
+   gap: var(--gap-flow, 1.5rem);
    place-content: baseline;
 }
 
-/** Exceptions */
 .cards-grid[data-flow='row'] {
-   grid-template-rows: repeat(3, calc(var(--size-card) + var(--flow-gap)));
+   grid-template-rows: repeat(3, calc(var(--size-card) + var(--gap-flow)));
    grid-template-columns: 1fr;
 }
 

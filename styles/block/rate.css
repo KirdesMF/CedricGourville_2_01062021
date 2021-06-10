@@ -1,17 +1,17 @@
 .rate[data-rate='4'] > :last-child {
-   color: var(--bg-darker);
+   color: var(--color-grey);
 }
 
 .rate[data-rate='3'] > :nth-last-of-type(-n + 2) {
-   color: var(--bg-darker);
+   color: var(--color-grey);
 }
 
 .rate[data-rate='2'] > :nth-last-of-type(-n + 3) {
-   color: var(--bg-darker);
+   color: var(--color-grey);
 }
 
 .rate[data-rate='1'] > :first-child {
-   color: var(--bg-darker);
+   color: var(--color-grey);
 }
 
 .rate > i {

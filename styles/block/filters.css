@@ -34,7 +34,7 @@
    width: var(--size);
    height: var(--size);
 
-   border-radius: 50%;
+   border-radius: var(--radius-full);
    transition: background-color 200ms ease-in-out, color 200ms ease-in-out;
 }
 
@@ -56,19 +56,19 @@
 }
 
 /* Hover State */
-.filters__label:hover .logo,
-.filters__input:focus ~ .logo {
-   background-color: var(--primary);
-   color: var(--primary-lighter);
+.filters__label:hover .filters__logo,
+.filters__input:focus ~ .filters__logo {
+   background-color: var(--color-primary);
+   color: var(--color-primary-lighter);
 }
 
-.filters__input:focus ~ .logo {
-   outline: 2px dotted var(--primary);
+.filters__input:focus ~ .filters__logo {
+   outline: 2px dotted var(--color-primary);
    outline-offset: 0.25rem;
 }
 
-.filters__label:hover .logo > i,
-.filters__input:focus ~ .logo > i {
+.filters__label:hover .filters__logo > i,
+.filters__input:focus ~ .filters__logo > i {
    animation: wobble 200ms linear;
 }
 
@@ -78,6 +78,6 @@
 
 /* Cheched State */
 .filters__input[type='checkbox']:checked ~ .filters__logo {
-   background-color: var(--checked);
-   color: var(--bg);
+   background-color: var(--color-checked);
+   color: var(--color-white);
 }
