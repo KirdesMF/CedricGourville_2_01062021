@@ -1,0 +1,3 @@
+.full-padding {
+   padding: var(--gap-flow, 1.5rem);
+}

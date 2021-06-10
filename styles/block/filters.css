@@ -6,7 +6,7 @@
    align-items: flex-start;
 }
 
-.filters .label {
+.filters__label {
    --size: 3rem;
    position: relative;
 
@@ -15,7 +15,7 @@
    grid-template-rows: var(--size);
 }
 
-.filters .label > input {
+.filters__input {
    position: absolute;
 
    width: 0;
@@ -27,7 +27,7 @@
    opacity: 0;
 }
 
-.filters .logo {
+.filters__logo {
    grid-column: 1 / 2;
    grid-row: 1;
 
@@ -36,17 +36,17 @@
 
    width: var(--size);
    height: var(--size);
-   border-radius: 50%;
 
+   border-radius: 50%;
    transition: background-color 200ms ease-in-out, color 200ms ease-in-out;
 }
 
-.filters .content {
+.filters__content {
    --pad: calc(var(--size) + var(--gap-flow) / 2);
+   z-index: -1;
 
    grid-column: 1 / -1;
    grid-row: 1;
-   z-index: -1;
 
    display: grid;
    place-items: center;
@@ -59,23 +59,23 @@
 }
 
 /* Hover State */
-.filters .label:hover .logo,
-.filters .label > input:focus ~ .logo {
+.filters__label:hover .logo,
+.filters__input:focus ~ .logo {
    background-color: var(--primary);
    color: var(--primary-lighter);
 }
 
-.filters .label > input:focus ~ .logo {
+.filters__input:focus ~ .logo {
    outline: 2px dotted var(--primary);
    outline-offset: 0.25rem;
 }
 
-.filters .label:hover .logo > i,
-.filters .label input:focus ~ .logo > i {
+.filters__label:hover .logo > i,
+.filters__input:focus ~ .logo > i {
    animation: wobble 200ms linear;
 }
 
-.filters .label:hover {
+.filters__label:hover {
    cursor: pointer;
 }
 
@@ -88,7 +88,7 @@
 }
 
 /* Cheched State */
-.filters input[type='checkbox']:checked ~ .logo {
+.filters__input[type='checkbox']:checked ~ .filters__logo {
    background-color: var(--checked);
    color: var(--bg);
 }

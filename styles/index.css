@@ -12,13 +12,16 @@
 
 /** Utilities */
 @import 'utilities/colors.css';
+@import 'utilities/radius.css';
+@import 'utilities/center.css';
 @import 'utilities/panel.css';
 @import 'utilities/wrapper.css';
-@import 'utilities/radius.css';
+@import 'utilities/full-padding.css';
 
 /** Block */
 @import 'block/site-header.css';
 @import 'block/search.css';
+@import 'block/form.css';
 @import 'block/filters.css';
 @import 'block/hebergements.css';
 @import 'block/activites.css';

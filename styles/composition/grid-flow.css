@@ -7,3 +7,7 @@
 .grid-gap-20 {
    --gap-flow: 1.25rem;
 }
+
+.grid-gap-5 {
+   --gap-flow: 0.3125rem;
+}

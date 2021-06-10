@@ -1,90 +1,10 @@
-.search__heading {
-   display: grid;
-   gap: 0.75rem;
-}
-
-/** Form */
-.search__form {
-   display: grid;
-   grid-template-columns: [logo]3rem [input]1fr [btn]min-content;
-   grid-template-rows: 3rem;
-}
-
-.search__form > .logo {
-   grid-column: logo / 2;
-   grid-row: 1;
-
-   display: grid;
-   place-items: center;
-
-   border-radius: var(--radius-10) 0 0 var(--radius-10);
-   background-color: var(--color-grey);
-}
-
-.search .form > .input {
-   grid-column: input / -1;
-   grid-row: 1;
-
-   border: 1px solid var(--color-grey);
-   padding-left: 1rem;
-   border-radius: 0 var(--radius-10) var(--radius-10) 0;
-}
-
-.search .form > input::placeholder {
-   color: var(--color-black);
-}
-
-.search .form > .btn {
-   grid-column: btn / -1;
-   grid-row: 1;
-   padding: 0 1rem 0 1rem;
-
-   border: none;
-   border-radius: var(--radius-10);
-}
-
-.search .form > .btn .content {
-   display: none;
-   visibility: hidden;
-}
-
-/* Hover State */
-.search .form .btn:hover {
-   color: var(--text);
-}
-
-@media screen and (min-width: 768px) {
-   .search .form {
-      grid-template-columns: [logo]3rem [input]18.75rem [btn]min-content;
-   }
-
-   .search .form > .btn {
-      border: none;
-      border-radius: 0 var(--radius-10) var(--radius-10) 0;
-   }
-
-   .search .form > .btn .content {
-      display: block;
-      visibility: visible;
-   }
-
-   .search .form > .btn .icon {
-      display: none;
-      visibility: hidden;
-   }
-}
-
-/** Info */
-.search .info {
+.search__info {
    display: flex;
    align-items: center;
-   gap: var(--flow-gap, 1.5rem);
+   gap: var(--gap-20);
 }
 
-.search .info > .logo {
-   display: grid;
-   place-items: center;
-
+.search__info > :first-child {
    width: 2rem;
    height: 2rem;
    border: 2px solid var(--color-grey);
