@@ -30,5 +30,5 @@
 
 /* Hover State */
 .site-footer a:hover {
-   color: var(--primary);
+   color: var(--color-primary);
 }

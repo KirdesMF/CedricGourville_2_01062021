@@ -1,4 +1,7 @@
-.cards-grid .card {
+/*=============================================
+=            Cards            =
+=============================================*/
+.card {
    --gap-card: 0.25rem;
 
    display: grid;
@@ -11,7 +14,7 @@
    box-shadow: 0 0 5px var(--color-shadow);
 }
 
-.cards-grid .card img {
+.card img {
    width: 100%;
    height: var(--size-card);
    object-fit: cover;
@@ -20,17 +23,30 @@
    border-radius: var(--radius-20) var(--radius-20) 0 0;
 }
 
-.cards-grid .card .content {
+.card__content {
    display: grid;
    gap: 0.25rem;
 }
 
-.cards-grid > .card > * + * {
+.card > * + * {
    padding: 0.5rem 1rem;
 }
 
-/* Populaire */
+/* Hover State */
+.card:hover,
+.card:focus {
+   animation: card 400ms ease-in-out;
+}
 
+.card:hover .rate > i,
+.card:focus .rate > i {
+   animation: rate 400ms ease-in-out;
+   animation-delay: var(--delay);
+}
+
+/*=============================================
+=           Populaires cards                  =
+=============================================*/
 .cards-grid[data-flow='row'] > .card {
    grid-template-columns: 0.5fr 1fr;
    grid-template-rows: 1fr 0.5fr;
@@ -43,16 +59,17 @@
    border-radius: var(--radius-20) 0 0 var(--radius-20);
 }
 
-.cards-grid[data-flow='row'] .card .content {
+.cards-grid[data-flow='row'] .card__content {
    align-self: center;
 }
 
-.cards-grid[data-flow='row'] .card .rate {
+.cards-grid[data-flow='row'] .rate {
    place-self: center start;
 }
 
-/* Custom */
-
+/*=============================================
+=            Custom cards                     =
+=============================================*/
 .cards-grid[data-flow='custom'] .card {
    grid-template-rows: 1fr 2.5rem;
    grid-template-columns: 1fr;
@@ -66,6 +83,11 @@
    border: none;
 }
 
+/**
+ *
+ * Desktop
+ *
+ */
 @media screen and (min-width: 992px) {
    .cards-grid[data-flow='custom'] .card img {
       min-height: calc(100% - calc(2.5rem + var(--gap-card)));
@@ -100,16 +122,4 @@
       grid-row: 3 / -1;
       grid-column: 4;
    }
-}
-
-/* Hover State */
-.cards-grid .card:hover,
-.cards-grid .card:focus {
-   animation: card 400ms ease-in-out;
-}
-
-.cards-grid .card:hover .rate > i,
-.cards-grid .card:focus .rate > i {
-   animation: rate 400ms ease-in-out;
-   animation-delay: var(--delay);
 }

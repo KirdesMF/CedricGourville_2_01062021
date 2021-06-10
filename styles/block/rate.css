@@ -1,3 +1,9 @@
+/**
+ *
+ * Colors stars
+ *
+ */
+
 .rate[data-rate='4'] > :last-child {
    color: var(--color-grey);
 }
@@ -14,6 +20,11 @@
    color: var(--color-grey);
 }
 
+/**
+ *
+ * Delay animation
+ *
+ */
 .rate > i {
    --delay: 0ms;
 }
