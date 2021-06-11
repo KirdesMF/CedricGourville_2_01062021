@@ -4,7 +4,7 @@
 
 ## Description
 
-Transformer une maquette en site web
+Transformer une maquette en site web ( Firefox / Chrome support )
 
 Stack imposé: HTML - CSS
 
