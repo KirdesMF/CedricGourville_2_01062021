@@ -8,6 +8,8 @@ Transformer une maquette en site web ( Firefox / Chrome support )
 
 Stack imposé: HTML - CSS
 
+Deploy: GitHub pages
+
 Temps imparti: 90 heures
 
 📆 Début: 29 mai 2020
